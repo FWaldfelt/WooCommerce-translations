@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-01-20 21:57+0100\n"
-"Language-Team: Prospress Translations <translations@prospress.com>\n"
+"PO-Revision-Date: 2020-01-20 22:53+0100\n"
+"Language-Team: Fredrik Waldfelt<fredrik@waldfelt.com>\n"
 "X-Generator: Poedit 2.2.4\n"
 "Last-Translator: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -658,6 +658,11 @@ msgid ""
 "This will attempt to charge the customer and send renewal order emails (if "
 "emails are enabled)."
 msgstr ""
+"Är du säker på att du vill göra ett nytt betalningsförsök för denna "
+"förnyelsebeställning?\n"
+"\n"
+"Det kommer att debiteras kunden och ett e-postmeddelande om "
+"förnyelsebeställning skickas (om e-post är aktiverat)"
 
 #: includes/admin/class-wcs-admin-meta-boxes.php:159
 msgid "Process renewal"
@@ -890,7 +895,7 @@ msgstr "Förnya manuellt"
 #. translators: 1: user display name 2: user ID 3: user email
 #: includes/admin/class-wcs-admin-post-types.php:1142
 msgid "%1$s (#%2$s &ndash; %3$s)"
-msgstr ""
+msgstr "%1$s (#%2$s &ndash; %3$s)"
 
 #: includes/admin/class-wcs-admin-post-types.php:1149
 #: includes/admin/meta-boxes/class-wcs-meta-box-subscription-data.php:84
@@ -907,7 +912,7 @@ msgstr "Kommande återkommande intäkter"
 
 #: includes/admin/class-wcs-admin-reports.php:61
 msgid "Retention Rate"
-msgstr ""
+msgstr "Andel ej utdelad vinst"
 
 #: includes/admin/class-wcs-admin-reports.php:67
 msgid "Subscriptions by Product"
@@ -1029,11 +1034,11 @@ msgstr "Betalningssätt"
 
 #: includes/admin/meta-boxes/class-wcs-meta-box-subscription-data.php:205
 msgid "Customer change payment method page &rarr;"
-msgstr ""
+msgstr "Sidan Ändra betalningsmetod för kund &rarr;"
 
 #: includes/admin/meta-boxes/class-wcs-meta-box-subscription-data.php:207
 msgid "Customer add payment method page &rarr;"
-msgstr ""
+msgstr "Sidan Lägg till betalningsmetod för kund &rarr;"
 
 #: includes/admin/meta-boxes/class-wcs-meta-box-subscription-data.php:221
 msgid "Shipping Details"
@@ -1064,7 +1069,7 @@ msgstr "Kunds notering om beställningen"
 #. subscriptions when updating the status
 #: includes/admin/meta-boxes/class-wcs-meta-box-subscription-data.php:373
 msgid "Error updating some information: %s"
-msgstr ""
+msgstr "Fel vid uppdatering av viss information:%s"
 
 #: includes/admin/meta-boxes/views/html-related-orders-row.php:33
 #: includes/admin/meta-boxes/views/html-retries-table.php:47
@@ -1180,8 +1185,8 @@ msgstr[1] "%d misslyckanden"
 #: includes/admin/reports/class-wcs-report-dashboard.php:212
 msgid "%2$s%1$s signup%3$s subscription signups this month"
 msgid_plural "%2$s%1$s signups%3$s subscription signups this month"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%2$s%1$s registrerad%3$s registrerad prenumeration denna månad"
+msgstr[1] "%2$s%1$s registrerade%3$s registrerade prenumerationer denna månad"
 
 #: includes/admin/reports/class-wcs-report-dashboard.php:218
 msgid "%s signup revenue this month"
@@ -1192,8 +1197,8 @@ msgstr "%s registreringsintäkter denna månad"
 #: includes/admin/reports/class-wcs-report-dashboard.php:225
 msgid "%2$s%1$s renewal%3$s subscription renewals this month"
 msgid_plural "%2$s%1$s renewals%3$s subscription renewals this month"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%2$s%1$s förnyad%3$s prenumeration denna månad"
+msgstr[1] "%2$s%1$s förnyade%3$s prenumerationer denna månad"
 
 #: includes/admin/reports/class-wcs-report-dashboard.php:231
 msgid "%s renewal revenue this month"
@@ -1204,12 +1209,12 @@ msgstr "%s förnyelseintäkter den här månaden"
 #: includes/admin/reports/class-wcs-report-dashboard.php:238
 msgid "%2$s%1$s cancellation%3$s subscription cancellations this month"
 msgid_plural "%2$s%1$s cancellations%3$s subscription cancellations this month"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%2$s%1$s avbruten%3$s prenumeration denna månad"
+msgstr[1] "%2$s%1$s avbrutna%3$s prenumerationer denna månad"
 
 #: includes/admin/reports/class-wcs-report-retention-rate.php:226
 msgid "Unended Subscription Count"
-msgstr ""
+msgstr "Antal ej avslutade prenumerationer"
 
 #: includes/admin/reports/class-wcs-report-subscription-by-customer.php:22
 #: includes/admin/reports/class-wcs-report-subscription-by-customer.php:97
@@ -1281,8 +1286,11 @@ msgid "Average Lifetime Value"
 msgstr "Genomsnittligt livslängdsvärde"
 
 #: includes/admin/reports/class-wcs-report-subscription-by-customer.php:50
+#, fuzzy
 msgid "The average value of all customers' sign-up, switch and renewal orders."
 msgstr ""
+"Det genomsnittliga värdet på alla kunders start-(sign-up), växlings- och "
+"förnyelsebeställningar."
 
 #: includes/admin/reports/class-wcs-report-subscription-by-customer.php:98
 msgid "Active Subscriptions %s"
@@ -1293,6 +1301,8 @@ msgid ""
 "The number of subscriptions this customer has with a status of active or "
 "pending cancellation."
 msgstr ""
+"Antalet prenumerationer denna kund har med statusen aktiv eller väntande "
+"avslut."
 
 #: includes/admin/reports/class-wcs-report-subscription-by-customer.php:99
 msgid "Total Subscriptions %s"
@@ -1320,11 +1330,13 @@ msgstr ""
 
 #: includes/admin/reports/class-wcs-report-subscription-by-customer.php:101
 msgid "Lifetime Value from Subscriptions %s"
-msgstr ""
+msgstr "Livstidsvärde från prenumerationer %s"
 
 #: includes/admin/reports/class-wcs-report-subscription-by-customer.php:101
 msgid "The total value of this customer's sign-up, switch and renewal orders."
 msgstr ""
+"Det totala värdet på denna kunds start-(sign-up), växlings- och "
+"förnyelsebeställningar."
 
 #: includes/admin/reports/class-wcs-report-subscription-by-product.php:20
 msgid "Product"
@@ -1344,29 +1356,31 @@ msgstr "Prenumerationsprodukt"
 
 #: includes/admin/reports/class-wcs-report-subscription-by-product.php:90
 msgid "Subscription Count %s"
-msgstr "Prenumerationsräkning %s"
+msgstr "Antal prenumerationer %s"
 
 #: includes/admin/reports/class-wcs-report-subscription-by-product.php:90
 msgid ""
 "The number of subscriptions that include this product as a line item and "
 "have a status other than pending or trashed."
 msgstr ""
+"Antalet prenumerationer som inkluderar denna produkt som en rad och har en "
+"annan status än pågående eller kastad."
 
 #: includes/admin/reports/class-wcs-report-subscription-by-product.php:91
 msgid "Average Recurring Line Total %s"
-msgstr ""
+msgstr "Genomsnittlig återkommande radtotal: %s"
 
 #: includes/admin/reports/class-wcs-report-subscription-by-product.php:91
 msgid "The average line total for this product on each subscription."
-msgstr "Genomsnittlig radtotal för denna produkt på varje prenumeration."
+msgstr "Genomsnittlig radsumma för denna produkt på varje prenumeration."
 
 #: includes/admin/reports/class-wcs-report-subscription-by-product.php:92
 msgid "Average Lifetime Value %s"
-msgstr ""
+msgstr "Genomsnittsligt livstidsvärde %s"
 
 #: includes/admin/reports/class-wcs-report-subscription-by-product.php:92
 msgid "The average line total on all orders for this product line item."
-msgstr ""
+msgstr "Den genomsnittliga radsumma på alla beställningar för denna produkt."
 
 #: includes/admin/reports/class-wcs-report-subscription-by-product.php:297
 #: includes/admin/reports/class-wcs-report-subscription-by-product.php:337
@@ -1375,41 +1389,43 @@ msgstr "prenumerationer"
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:485
 msgid "%s signup revenue in this period"
-msgstr ""
+msgstr "%s prenumerationsintäkter i denna perioden"
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:486
 msgid ""
 "The sum of all subscription parent orders, including other items, fees, tax "
 "and shipping."
 msgstr ""
+"Summan av alla prenumerationers överordrar, inklusive andra artiklar, "
+"avgifter, moms och frakt."
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:492
 msgid "%s renewal revenue in this period"
-msgstr ""
+msgstr "%s förnyelseintäkter under denna period"
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:493
 msgid "The sum of all renewal orders including tax and shipping."
-msgstr ""
+msgstr "Summan av alla förnyade abonnemang inklusive moms och frakt."
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:499
 msgid "%s resubscribe revenue in this period"
-msgstr ""
+msgstr "%s återprenumererande intäkter under denna period"
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:500
 msgid "The sum of all resubscribe orders including tax and shipping."
-msgstr ""
+msgstr "Summan av alla återstartade prenumerationer inklusive moms och frakt."
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:506
 msgid "%s switch revenue in this period"
-msgstr ""
+msgstr "%s växlingsintäkter den här månaden"
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:507
 msgid "The sum of all switch orders including tax and shipping."
-msgstr ""
+msgstr "Summan av alla växlingsbestälningar inklusive moms och frakt."
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:513
 msgid "%2$s %1$s new subscriptions"
-msgstr ""
+msgstr "%2$s %1$s nya prenumerationer"
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:515
 msgid ""
@@ -1417,10 +1433,13 @@ msgid ""
 "manually created, imported or a customer placing an order. This includes "
 "orders pending payment."
 msgstr ""
+"Antalet prenumerationer som skapats under denna period, antingen manuellt, "
+"importerade eller att en kund lagt en beställning. Detta inkluderar "
+"beställningar med väntande betalning."
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:521
 msgid "%2$s %1$s subscription signups"
-msgstr ""
+msgstr "%2$s %1$s prenumerationsregistreringar"
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:523
 msgid ""
@@ -1428,36 +1447,42 @@ msgid ""
 "period. This represents the new subscriptions created by customers placing "
 "an order via checkout."
 msgstr ""
+"Antalet prenumerationer som köpts i överordnade beställningar skapade under "
+"denna period. Detta representerar de nya prenumerationer som skapats av "
+"kunder som gör en beställning via kassan."
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:529
 msgid "%2$s %1$s subscription resubscribes"
-msgstr ""
+msgstr "%2$s %1$s prenumeration återprenumererar"
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:531
 msgid "The number of resubscribe orders processed during this period."
 msgstr ""
+"Antalet återprenumerations-beställningar genomförda under denna period."
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:537
 msgid "%2$s %1$s subscription renewals"
-msgstr ""
+msgstr "%2$s %1$s prenumerationsförnyelser"
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:539
 msgid "The number of renewal orders processed during this period."
-msgstr ""
+msgstr "Antalet återaktiveringsbeställningar genomförda under denna period."
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:545
 msgid "%2$s %1$s subscription switches"
-msgstr ""
+msgstr "%2$s %1$s prenumerationsväxlingar"
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:547
 msgid ""
 "The number of subscriptions upgraded, downgraded or cross-graded during this "
 "period."
 msgstr ""
+"Antalet prenumerationer som uppgraderats, nedgraderats eller korsgraderats "
+"under denna period."
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:553
 msgid "%2$s %1$s subscription cancellations"
-msgstr ""
+msgstr "%2$s %1$s prenumerationsavbrott"
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:555
 msgid ""
@@ -1465,38 +1490,45 @@ msgid ""
 "during this period.  The pre-paid term may not yet have ended during this "
 "period."
 msgstr ""
+"Antalet prenumerationer avbrutits av kunden eller butikschef under denna "
+"period. Den förbetalda perioden kanske ännu inte har avslutats under denna "
+"period."
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:561
 msgid "%2$s %1$s ended subscriptions"
-msgstr ""
+msgstr "%2$s %1$s slutade prenumerationer"
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:563
 msgid ""
 "The number of subscriptions which have either expired or reached the end of "
 "the prepaid term if it was previously cancelled."
 msgstr ""
+"Antalet prenumerationer som har upphört att gälla eller nått slutet av den "
+"förbetalda perioden om den tidigare avbrutits."
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:572
 msgid "%2$s %1$s current subscriptions"
-msgstr ""
+msgstr "%2$s %1$s aktuella prenumerationer"
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:574
 msgid ""
 "The number of subscriptions during this period with an end date in the "
 "future and a status other than pending."
 msgstr ""
+"Antalet prenumerationer under denna period med ett slutdatum i framtiden och "
+"en annan status än väntande."
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:590
 msgid "%s net subscription gain"
-msgstr ""
+msgstr "%s netto prenumerationsvinst"
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:592
 msgid "%s net subscription loss"
-msgstr ""
+msgstr "%s netto prenumerationsförlust"
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:597
 msgid "Change in subscriptions between the start and end of the period."
-msgstr ""
+msgstr "Ändring av prenumerationer mellan början och slutet av perioden."
 
 #: includes/admin/reports/class-wcs-report-subscription-events-by-date.php:611
 #: includes/admin/reports/class-wcs-report-subscription-payment-retry.php:154
@@ -1570,27 +1602,32 @@ msgstr "Växlade totalt"
 
 #: includes/admin/reports/class-wcs-report-subscription-payment-retry.php:112
 msgid "%s renewal revenue recovered"
-msgstr ""
+msgstr "%s förnyelseintäkter återvunna"
 
 #: includes/admin/reports/class-wcs-report-subscription-payment-retry.php:113
 msgid ""
 "The total amount of revenue, including tax and shipping, recovered with the "
 "failed payment retry system for renewal orders with a failed payment."
 msgstr ""
+"Den totala mängden av intäkterna, inklusive moms och frakt, återvunna efter "
+"att systemet för försök av misslyckade betalningar för "
+"förnyelsebeställningar med en misslyckad betalning misslyckats."
 
 #: includes/admin/reports/class-wcs-report-subscription-payment-retry.php:119
 #: includes/admin/reports/class-wcs-report-upcoming-recurring-revenue.php:93
 msgid "%s renewal orders"
-msgstr ""
+msgstr "%s förnyelsebeställningar"
 
 #: includes/admin/reports/class-wcs-report-subscription-payment-retry.php:120
 msgid ""
 "The number of renewal orders which had a failed payment use the retry system."
 msgstr ""
+"Antalet förnyelsebeställningar som använde systemet för återförsök vid en "
+"misslyckad betalning."
 
 #: includes/admin/reports/class-wcs-report-subscription-payment-retry.php:125
 msgid "%s retry attempts succeeded"
-msgstr ""
+msgstr "%s lyckade nya försök"
 
 #: includes/admin/reports/class-wcs-report-subscription-payment-retry.php:126
 msgid ""
@@ -1630,15 +1667,15 @@ msgstr "Väntande försök"
 
 #: includes/admin/reports/class-wcs-report-subscription-payment-retry.php:290
 msgid "Recovered Renewal Revenue"
-msgstr ""
+msgstr "Återvunna förnyelseintäkter"
 
 #: includes/admin/reports/class-wcs-report-upcoming-recurring-revenue.php:88
 msgid "%s renewal income in this period"
-msgstr ""
+msgstr "%s förnyelseintäkter under denna period"
 
 #: includes/admin/reports/class-wcs-report-upcoming-recurring-revenue.php:98
 msgid "%s average renewal amount"
-msgstr ""
+msgstr "%s genomsnittligt förnyelsebelopp"
 
 #: includes/admin/reports/class-wcs-report-upcoming-recurring-revenue.php:174
 msgid "Next 12 Months"
@@ -1679,6 +1716,8 @@ msgstr "Ogiltigt prenumerations-ID."
 msgid ""
 "Gateway does not support admin changing the payment method on a Subscription."
 msgstr ""
+"Betalningsportalen tillåter inte administratör att ändra betalningssätt för "
+"ett abonnemang."
 
 #. translators: 1$: gateway id, 2$: error message
 #: includes/api/class-wc-rest-subscriptions-controller.php:397
@@ -1686,17 +1725,18 @@ msgstr ""
 msgid ""
 "Subscription payment method could not be set to %1$s with error message: %2$s"
 msgstr ""
+"Prenumerationens betalningsmetod kan inte anges till %1$s felmeddelande: %2$s"
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:463
 #: includes/api/class-wc-rest-subscriptions-controller.php:762
 #: includes/api/legacy/class-wc-rest-subscriptions-controller.php:284
 msgid "Updating subscription dates errored with message: %s"
-msgstr ""
+msgstr "Uppdatering av prenumerationsdatum misslyckades med meddelandet: %s"
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:488
 #: includes/api/legacy/class-wc-rest-subscriptions-controller.php:347
 msgid "The number of billing periods between subscription renewals."
-msgstr ""
+msgstr "Antalet faktureringsperioder mellan prenumerationsförnyelse."
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:493
 #: includes/api/legacy/class-wc-rest-subscriptions-controller.php:352
@@ -1738,10 +1778,12 @@ msgid ""
 "The subscription's original subscription ID if this is a resubscribed "
 "subscription."
 msgstr ""
+"Prenumerationens ursprungliga prenumerations-ID om det här är en förnyat "
+"prenumeration."
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:537
 msgid "The subscription's resubscribed subscription ID."
-msgstr ""
+msgstr "Prenumerationens förnyade prenumerations-ID."
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:543
 msgid "The date the subscription's latest order was completed, in GMT."
@@ -1749,7 +1791,7 @@ msgstr "Datum för prenumerationens senaste kompletta beställningen, i GMT."
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:549
 msgid "The date the subscription's latest order was paid, in GMT."
-msgstr ""
+msgstr "Datum för prenumerationens senaste beställning betalades, i GMT."
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:555
 msgid "Removed line items data."
@@ -1765,7 +1807,7 @@ msgstr "Produktnamn."
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:574
 msgid "Product SKU."
-msgstr ""
+msgstr "Produktens Art.nr."
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:580
 msgid "Product ID."
@@ -1773,7 +1815,7 @@ msgstr "Produkt-ID."
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:585
 msgid "Variation ID, if applicable."
-msgstr ""
+msgstr "Variations-ID, om tillämpligt."
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:590
 msgid "Quantity ordered."
@@ -1781,7 +1823,7 @@ msgstr "Beställt antal."
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:595
 msgid "Tax class of product."
-msgstr ""
+msgstr "Produktens momsklass."
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:601
 msgid "Product price."
@@ -1789,35 +1831,35 @@ msgstr "Produktpris."
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:607
 msgid "Line subtotal (before discounts)."
-msgstr ""
+msgstr "Radsumma (före rabatter)."
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:612
 msgid "Line subtotal tax (before discounts)."
-msgstr ""
+msgstr "Radsumma moms (före rabatter)."
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:617
 msgid "Line total (after discounts)."
-msgstr ""
+msgstr "Rad totalsumma (efter rabatter)."
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:622
 msgid "Line total tax (after discounts)."
-msgstr ""
+msgstr "Rad totalsumma moms (efter rabatter)."
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:627
 msgid "Line taxes."
-msgstr ""
+msgstr "Rad moms."
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:635
 msgid "Tax rate ID."
-msgstr ""
+msgstr "Moms-ID."
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:641
 msgid "Tax total."
-msgstr ""
+msgstr "Moms totalt."
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:647
 msgid "Tax subtotal."
-msgstr ""
+msgstr "Delsumma moms."
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:656
 msgid "Removed line item meta data."
@@ -1837,7 +1879,7 @@ msgstr "Meta-värde."
 
 #: includes/api/legacy/class-wc-api-subscriptions.php:102 wcs-functions.php:178
 msgid "Invalid subscription status given."
-msgstr ""
+msgstr "Ogiltig prenumerationsstatus angiven."
 
 #: includes/api/legacy/class-wc-api-subscriptions.php:124
 msgid "You do not have permission to read the subscriptions count"
@@ -1898,7 +1940,7 @@ msgstr ""
 #: includes/class-wc-subscription.php:1183
 #: includes/class-wc-subscriptions-manager.php:2281
 msgid "In %s"
-msgstr ""
+msgstr "Om %s"
 
 #. translators: placeholder is human time diff (e.g. "3 weeks")
 #: includes/class-wc-subscription.php:1186
@@ -2059,7 +2101,7 @@ msgstr "Fyll i ett giltigt postnummer."
 
 #: includes/class-wc-subscriptions-cart.php:1171
 msgid "Invalid recurring shipping method."
-msgstr ""
+msgstr "Ogiltigt återkommande fraktsätt."
 
 #: includes/class-wc-subscriptions-cart.php:2082
 msgid "now"
@@ -2171,11 +2213,11 @@ msgstr "Fel %d: Kan inte skapa beställning. Försök igen."
 
 #: includes/class-wc-subscriptions-coupon.php:163
 msgid "Sign Up Fee Discount"
-msgstr ""
+msgstr "Rabatt på registreringsavgift"
 
 #: includes/class-wc-subscriptions-coupon.php:164
 msgid "Sign Up Fee % Discount"
-msgstr ""
+msgstr "Registreringsavgift % rabatt"
 
 #: includes/class-wc-subscriptions-coupon.php:165
 msgid "Recurring Product Discount"
@@ -2229,7 +2271,7 @@ msgstr ""
 
 #: includes/class-wc-subscriptions-coupon.php:693
 msgid "Renewal % discount"
-msgstr "Förnyelserabatt %"
+msgstr "Förnyelse % rabatt"
 
 #: includes/class-wc-subscriptions-coupon.php:694
 msgid "Renewal product discount"
@@ -2464,7 +2506,7 @@ msgstr "%1$s på den sista dagen av varje %2$s månad"
 #: includes/class-wc-subscriptions-product.php:348
 #: includes/wcs-formatting-functions.php:151
 msgid "%1$s on the %2$s day of every %3$s month"
-msgstr ""
+msgstr "%1$s den %2$s dag varje %3$s månad"
 
 #. translators: 1$: <price> on, 2$: <date>, 3$: <month> each year (e.g. "$15 on
 #. March 15th each year")
@@ -2473,14 +2515,14 @@ msgstr ""
 #: includes/class-wc-subscriptions-product.php:355
 #: includes/wcs-formatting-functions.php:164
 msgid "%1$s on %2$s %3$s each year"
-msgstr ""
+msgstr "%1$s på %2$s %3$s varje år"
 
 #. translators: 1$: recurring amount, 2$: month (e.g. "March"), 3$: day of the
 #. month (e.g. "23rd") (e.g. "$15 on March 15th every 3rd year")
 #: includes/class-wc-subscriptions-product.php:358
 #: includes/wcs-formatting-functions.php:173
 msgid "%1$s on %2$s %3$s every %4$s year"
-msgstr ""
+msgstr "%1$s på %2$s %3$s var %4$s år"
 
 #. translators: 1$: recurring amount, 2$: subscription period (e.g. "month" or
 #. "3 months") (e.g. "$15 / month" or "$15 every 2nd month")
@@ -2488,8 +2530,8 @@ msgstr ""
 #: includes/wcs-formatting-functions.php:184
 msgid "%1$s / %2$s"
 msgid_plural "%1$s every %2$s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$s / %2$s"
+msgstr[1] "%1$s varje %2$s"
 
 #. translators: billing period (e.g. "every week")
 #: includes/class-wc-subscriptions-product.php:370
@@ -4942,25 +4984,25 @@ msgstr "Ogiltiga data. Inget giltigt id skickades in."
 msgid "%s day"
 msgid_plural "a %s-day"
 msgstr[0] "%s dag"
-msgstr[1] ""
+msgstr[1] "en %s-dag"
 
 #: includes/wcs-time-functions.php:56
 msgid "%s week"
 msgid_plural "a %s-week"
 msgstr[0] "%s vecka"
-msgstr[1] ""
+msgstr[1] "en %s-vecka"
 
 #: includes/wcs-time-functions.php:57
 msgid "%s month"
 msgid_plural "a %s-month"
 msgstr[0] "%s månad"
-msgstr[1] ""
+msgstr[1] "en %s-månad"
 
 #: includes/wcs-time-functions.php:58
 msgid "%s year"
 msgid_plural "a %s-year"
 msgstr[0] "%s år"
-msgstr[1] ""
+msgstr[1] "ett %s-år "
 
 #: includes/wcs-user-functions.php:340
 #: templates/single-product/add-to-cart/subscription.php:30
@@ -5044,7 +5086,7 @@ msgstr ""
 
 #: templates/admin/html-variation-price.php:31
 msgid "Subscription trial period:"
-msgstr "Prenumerationens provperiod: "
+msgstr "Prenumerationens provperiod:"
 
 #: templates/admin/html-variation-price.php:49
 msgid "Billing interval:"
