@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-01-20 21:28+0100\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2020-01-20 23:23+0100\n"
+"Language-Team: Fredrik Waldfelt (fredrik@waldfelt.com)\n"
 "X-Generator: Poedit 2.2.4\n"
 "Last-Translator: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -219,6 +219,9 @@ msgid ""
 "permanently deleted, it will be removed from the list of products that grant "
 "access."
 msgstr ""
+"Produkten %1$s är för närvarande inställd på att bevilja medlemsåtkomst till "
+"%2$s. När den raderas permanent tas den även bort från listan över produkter "
+"som beviljar åtkomst."
 
 #: includes/admin/class-wc-memberships-admin-products.php:231
 #: includes/admin/class-wc-memberships-admin.php:451
@@ -248,13 +251,15 @@ msgstr "Inga produkter har avmarkerats som offentliga."
 
 #: includes/admin/class-wc-memberships-admin-products.php:367
 msgid "No Products have been excluded from member discounts."
-msgstr ""
+msgstr "Inga produkter har blivit uteslutna från medlemsrabatterna."
 
 #: includes/admin/class-wc-memberships-admin-products.php:370
 msgid ""
 "No Products have been marked to be eligible for member discounts from "
 "applicable membership plan rules."
 msgstr ""
+"Inga produkter har markerats som berättigande för medlemsrabatter utifrån "
+"tillämpliga medlemskapsplansregler."
 
 #. translators: Placeholder: %d - product count (number)
 #: includes/admin/class-wc-memberships-admin-products.php:379
@@ -1521,10 +1526,12 @@ msgid ""
 "Let's walk through a few steps to get the plugin configured and create your "
 "first plan."
 msgstr ""
+"Låt oss gå igenom ett par steg för att konfigurera tillägget och skapa din "
+"första plan."
 
 #: includes/admin/class-wc-memberships-setup-wizard.php:190
 msgid "What should happen when non-members visit restricted content?"
-msgstr ""
+msgstr "Vad ska hända när icke-medlemmar besöker begränsat innehåll?"
 
 #. translators: Placeholders: %1$s - opening <strong> HTML tag, %2$s - closing
 #. </strong> HTML tag, %3$s - opening <strong> HTML tag, %4$s - closing
@@ -1832,10 +1839,12 @@ msgid ""
 "This plugin will be installed and activated for you: %1$sJilt for WooCommerce"
 "%2$s"
 msgstr ""
+"Detta tillägg kommer att installeras och aktiveras för dig: %1$sJilt för "
+"WooCommerce%2$s"
 
 #: includes/admin/class-wc-memberships-setup-wizard.php:1257
 msgid "Jilt for WooCommerce"
-msgstr ""
+msgstr "Jilt för WooCommerce"
 
 #: includes/admin/class-wc-memberships-setup-wizard.php:1285
 msgid "View my plan"
@@ -1850,6 +1859,8 @@ msgid ""
 "Your first plan has been started, you can now add more rules and publish it "
 "when you are ready."
 msgstr ""
+"Din första plan har aktiverats, du kan nu lägga till fler regler och "
+"publicera den när du är redo."
 
 #: includes/admin/class-wc-memberships-setup-wizard.php:1294
 msgid "Visit docs"
@@ -2546,13 +2557,13 @@ msgstr "[Plan borttagen]"
 #. note. Example "Gold Plan: Membership cancelled"
 #: includes/admin/meta-boxes/views/class-wc-memberships-meta-box-view-membership-recent-activity-note.php:62
 msgid "%1$s: %2$s"
-msgstr ""
+msgstr "%1$s: %2$s"
 
 #. translators: Placeholders: Date (%1$s) and time (%2$s) when a Membership
 #. Note was published
 #: includes/admin/meta-boxes/views/class-wc-memberships-meta-box-view-membership-recent-activity-note.php:79
 msgid "On %1$s at %2$s"
-msgstr ""
+msgstr "På %1$s kl %2$s"
 
 #: includes/admin/meta-boxes/views/class-wc-memberships-meta-box-view-product-restriction-rule.php:167
 #: includes/admin/meta-boxes/views/class-wc-memberships-meta-box-view-purchasing-discount-rule.php:181
@@ -2661,7 +2672,7 @@ msgstr "Stäng"
 #. translators: Placeholder: %s - percentage completed
 #: includes/admin/modals/abstract-wc-memberships-batch-job-modal.php:108
 msgid "Current progress: %s"
-msgstr ""
+msgstr "Nuvarande framsteg: %s"
 
 #: includes/admin/modals/abstract-wc-memberships-batch-job-modal.php:171
 msgid "Error"
@@ -2715,7 +2726,7 @@ msgstr "Efternamn"
 
 #: includes/admin/modals/abstract-wc-memberships-modal.php:102
 msgid "Close modal window"
-msgstr ""
+msgstr "Stäng modalfönster"
 
 #: includes/admin/modals/class-wc-memberships-modal-add-user-membership.php:48
 #: includes/admin/modals/class-wc-memberships-modal-add-user-membership.php:49
@@ -2743,6 +2754,8 @@ msgid ""
 "This action will create a membership for registered users who are not yet "
 "members of the %s plan."
 msgstr ""
+"Detta kommer att skapa ett medlemskap för registrerade användare som ännu "
+"inte är medlemmar i %splanen."
 
 #. translators: Placeholder: %s - the plan name
 #: includes/admin/modals/class-wc-memberships-modal-grant-access-membership-plan.php:66
@@ -2782,13 +2795,13 @@ msgstr ""
 #. translators: Placeholders: %s - current progress (number), either 0 or 1
 #: includes/admin/modals/class-wc-memberships-modal-grant-access-membership-plan.php:131
 msgid "Processed %s out of 1 user."
-msgstr ""
+msgstr "Hanterat %s av 1 användare."
 
 #. translators: Placeholders: %1$s - current progress (number), %2$s - total
 #. amount of users to process (number)
 #: includes/admin/modals/class-wc-memberships-modal-grant-access-membership-plan.php:134
 msgid "Processed %1$s out of %2$s users."
-msgstr ""
+msgstr "Hanterat %1$s av %2$s användare."
 
 #: includes/admin/modals/class-wc-memberships-modal-grant-access-membership-plan.php:155
 #: includes/admin/modals/class-wc-memberships-modal-reschedule-user-memberships-events.php:138
@@ -2944,47 +2957,47 @@ msgstr "Medlemskapsplan"
 
 #: includes/api/abstract-wc-memberships-rest-api-membership-plans.php:94
 msgid "Unique identifier of a membership plan."
-msgstr ""
+msgstr "Unik identifiering av en medlemskapsplan."
 
 #: includes/api/abstract-wc-memberships-rest-api-membership-plans.php:398
 msgid "Unique identifier of the membership plan."
-msgstr ""
+msgstr "Unik identifierare för medlemskapsplanen."
 
 #: includes/api/abstract-wc-memberships-rest-api-membership-plans.php:404
 msgid "Membership plan name."
-msgstr ""
+msgstr "Namn på medlemskapsplan."
 
 #: includes/api/abstract-wc-memberships-rest-api-membership-plans.php:409
 msgid "Membership plan slug."
-msgstr ""
+msgstr "Medlemskapsplan slug."
 
 #: includes/api/abstract-wc-memberships-rest-api-membership-plans.php:414
 msgid "Membership plan status."
-msgstr ""
+msgstr "Medlemskapsplans status."
 
 #: includes/api/abstract-wc-memberships-rest-api-membership-plans.php:419
 msgid "Membership plan access method."
-msgstr ""
+msgstr "Metod för åtkomst av medlemskapsplan."
 
 #: includes/api/abstract-wc-memberships-rest-api-membership-plans.php:424
 msgid "List of products that can grant access to the membership plan."
-msgstr ""
+msgstr "Lista över produkter som kan ge åtkomst till medlemskapsplanen."
 
 #: includes/api/abstract-wc-memberships-rest-api-membership-plans.php:432
 msgid "Duration type of the membership."
-msgstr ""
+msgstr "Typ av varaktighet för medlemskapet."
 
 #: includes/api/abstract-wc-memberships-rest-api-membership-plans.php:437
 msgid "Membership plan access duration in seconds."
-msgstr ""
+msgstr "Varaktighet i sekunder för åtkomst till medlemskapsplan."
 
 #: includes/api/abstract-wc-memberships-rest-api-membership-plans.php:442
 msgid "The date when access will start, in the site timezone."
-msgstr ""
+msgstr "Datum åtkomsten startar, enligt webbplatsens tidszon."
 
 #: includes/api/abstract-wc-memberships-rest-api-membership-plans.php:447
 msgid "The date when access will start, in UTC."
-msgstr ""
+msgstr "Datumet åtkomst startar i UTC."
 
 #: includes/api/abstract-wc-memberships-rest-api-membership-plans.php:452
 msgid ""
@@ -3016,7 +3029,7 @@ msgstr ""
 
 #: includes/api/abstract-wc-memberships-rest-api-membership-plans.php:482
 msgid "Membership plan additional meta data."
-msgstr ""
+msgstr "Ytterligare meta data för medlemskapsplan."
 
 #: includes/api/abstract-wc-memberships-rest-api-membership-plans.php:489
 #: includes/api/abstract-wc-memberships-rest-api-user-memberships.php:1025
@@ -3040,7 +3053,7 @@ msgstr "Användarmedlemskap"
 
 #: includes/api/abstract-wc-memberships-rest-api-user-memberships.php:107
 msgid "Unique identifier of a user membership."
-msgstr ""
+msgstr "Unik identifierare av ett användarmedlemskap."
 
 #: includes/api/abstract-wc-memberships-rest-api-user-memberships.php:189
 #: includes/api/abstract-wc-memberships-rest-api-user-memberships.php:282
@@ -3049,7 +3062,7 @@ msgstr "Ogiltig förfrågan."
 
 #: includes/api/abstract-wc-memberships-rest-api-user-memberships.php:195
 msgid "Required %s is missing."
-msgstr ""
+msgstr "Obligatorisk %s saknas."
 
 #. translators: Placeholders: %1$s - customer ID, %2$s - membership plan ID
 #: includes/api/abstract-wc-memberships-rest-api-user-memberships.php:206
@@ -3212,51 +3225,51 @@ msgstr ""
 
 #: includes/api/abstract-wc-memberships-rest-api-user-memberships.php:1018
 msgid "User membership additional meta data."
-msgstr ""
+msgstr "Ytterligare metadata för användarmedlemskap."
 
 #: includes/api/abstract-wc-memberships-rest-api-user-memberships.php:1106
 msgid "List of user memberships created."
-msgstr ""
+msgstr "Lista över skapade användarmedlemskap."
 
 #: includes/api/abstract-wc-memberships-rest-api-user-memberships.php:1110
 msgid "List of updated user memberships."
-msgstr ""
+msgstr "Lista över uppdaterade användarmedlemskap."
 
 #: includes/api/abstract-wc-memberships-rest-api-user-memberships.php:1114
 msgid "List of deleted user memberships."
-msgstr ""
+msgstr "Lista över raderade användarmedlemskap."
 
 #: includes/api/class-wc-memberships-webhooks.php:171
 msgid "User Membership Created"
-msgstr ""
+msgstr "Användarmedlemskap skapad"
 
 #: includes/api/class-wc-memberships-webhooks.php:172
 msgid "User Membership Updated"
-msgstr ""
+msgstr "Användarmedlemskap uppdaterat"
 
 #: includes/api/class-wc-memberships-webhooks.php:173
 msgid "User Membership Transferred"
-msgstr ""
+msgstr "Användarmedlemskap överflyttat"
 
 #: includes/api/class-wc-memberships-webhooks.php:174
 msgid "User Membership Deleted"
-msgstr ""
+msgstr "Användarmedlemskap har raderats"
 
 #: includes/api/class-wc-memberships-webhooks.php:178
 msgid "Membership Plan Created"
-msgstr ""
+msgstr "Medlemskapsplan skapad"
 
 #: includes/api/class-wc-memberships-webhooks.php:179
 msgid "Membership Plan Updated"
-msgstr ""
+msgstr "Medlemskapsplan uppdaterad"
 
 #: includes/api/class-wc-memberships-webhooks.php:180
 msgid "Membership Plan Deleted"
-msgstr ""
+msgstr "Medlemskapsplan borttagen"
 
 #: includes/api/class-wc-memberships-webhooks.php:181
 msgid "Membership Plan Restored"
-msgstr ""
+msgstr "Medlemskapsplan återställd"
 
 #: includes/class-wc-memberships-ajax.php:416
 msgid ""
@@ -3274,7 +3287,7 @@ msgstr ""
 #: includes/class-wc-memberships-ajax.php:492
 #: includes/class-wc-memberships-user-membership.php:1964
 msgid "An error occurred."
-msgstr ""
+msgstr "Ett fel uppstod."
 
 #: includes/class-wc-memberships-ajax.php:509
 #: includes/class-wc-memberships-ajax.php:563
@@ -3328,7 +3341,7 @@ msgstr ""
 #. translators: Placeholder: %s - optional error message
 #: includes/class-wc-memberships-ajax.php:790
 msgid "An error occurred while starting the import process. %s"
-msgstr ""
+msgstr "Ett fel inträffade vid start av importprocessen. %s"
 
 #. translators: Placeholder: %s - merge tag
 #: includes/class-wc-memberships-emails.php:360
@@ -4523,20 +4536,20 @@ msgstr ""
 
 #: includes/integrations/groups/class-wc-memberships-integration-groups.php:149
 msgid "There are no groups to import."
-msgstr ""
+msgstr "Det finns inga grupper att importera."
 
 #: includes/integrations/groups/class-wc-memberships-integration-groups.php:161
 msgid "For each group, specify which plan should we import members to."
-msgstr ""
+msgstr "För varje grupp, ange vilken plan vi ska importera medlemmarna till."
 
 #. translators: %s - Group name, %d - Group ID
 #: includes/integrations/groups/class-wc-memberships-integration-groups.php:167
 msgid "Group: %s (ID #%d) "
-msgstr ""
+msgstr "Grupp: %s (ID #%d) "
 
 #: includes/integrations/groups/class-wc-memberships-integration-groups.php:170
 msgid "What should be done with members of this group?"
-msgstr ""
+msgstr "Vad ska göras med medlemmar i denna grupp?"
 
 #: includes/integrations/groups/class-wc-memberships-integration-groups.php:182
 msgid "Skip"
@@ -4553,8 +4566,8 @@ msgstr "Bekräfta import"
 #: includes/integrations/groups/class-wc-memberships-integration-groups.php:316
 msgid "%d member imported from Groups."
 msgid_plural "%d members imported from Groups"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d medlem importerad från Groups."
+msgstr[1] "%d medlemmar importerade från Groups."
 
 #: includes/integrations/groups/class-wc-memberships-integration-groups.php:318
 msgid "No members were imported from Groups."
@@ -4563,7 +4576,7 @@ msgstr "Inga medlemmar blev importerade från Grupper."
 #. translators: %s - Group name, %d Group ID
 #: includes/integrations/groups/class-wc-memberships-integration-groups.php:403
 msgid "Membership imported from Group \"%s\" (ID #%d)"
-msgstr ""
+msgstr "Medlemskap importerat från Groups \" %s\" (ID #% d)"
 
 #: includes/integrations/subscriptions/class-wc-memberships-integration-subscriptions-admin.php:102
 msgid "Membership not linked to a Subscription"
@@ -4577,7 +4590,7 @@ msgstr "%1$s - %2$sRedigera länk%3$s"
 
 #: includes/integrations/subscriptions/class-wc-memberships-integration-subscriptions-admin.php:122
 msgid "Link to a Subscription or keep empty to leave unlinked"
-msgstr ""
+msgstr "Länka till en prenumeration eller lämna tomt för att låta vara olänkad"
 
 #: includes/integrations/subscriptions/class-wc-memberships-integration-subscriptions-admin.php:163
 msgid "Subscription:"
@@ -4699,13 +4712,13 @@ msgstr "Prenumeration: %s"
 
 #: includes/integrations/subscriptions/class-wc-memberships-integration-subscriptions-admin.php:606
 msgid "Delete User Membership with Subscription"
-msgstr ""
+msgstr "Ta bort användarmedlemskap med abonnemang"
 
 #. translators: Placeholder: %s - notice message
 #: includes/integrations/subscriptions/class-wc-memberships-integration-subscriptions-admin.php:758
 #: includes/integrations/subscriptions/class-wc-memberships-integration-subscriptions-admin.php:769
 msgid "Subscription-tied membership plan: %s"
-msgstr ""
+msgstr "Prenumerationsbunden medlemskapsplan: %s"
 
 #: includes/integrations/subscriptions/class-wc-memberships-integration-subscriptions-admin.php:800
 #: includes/utilities/class-wc-memberships-csv-export-user-memberships.php:492
@@ -4749,7 +4762,7 @@ msgstr "Visa betalning"
 
 #: includes/integrations/subscriptions/class-wc-memberships-integration-subscriptions-frontend.php:153
 msgid "Next Payment Date"
-msgstr ""
+msgstr "Nästa betalningsdatum"
 
 #: includes/integrations/subscriptions/class-wc-memberships-integration-subscriptions-frontend.php:181
 #: includes/integrations/subscriptions/class-wc-memberships-integration-subscriptions-frontend.php:229
@@ -4758,7 +4771,7 @@ msgstr "Nästa faktura den"
 
 #: includes/integrations/subscriptions/class-wc-memberships-integration-subscriptions-lifecycle.php:104
 msgid "Membership paused because WooCommerce Subscriptions was deactivated."
-msgstr ""
+msgstr "Medlemskapet pausat eftersom WooCommerce Subscription inaktiverades."
 
 #. translators: Placeholders: %1$s is the subscription product name, %2%s is
 #. the order number
@@ -4821,6 +4834,8 @@ msgstr ""
 #: includes/integrations/subscriptions/class-wc-memberships-integration-subscriptions-user-memberships.php:546
 msgid "Unique identifier of a subscription the user membership is tied to."
 msgstr ""
+"Unik identifiering av en prenumeration som användarmedlemskapet är bundet "
+"till."
 
 #: includes/integrations/subscriptions/class-wc-memberships-integration-subscriptions-user-memberships.php:553
 msgid ""
@@ -4835,11 +4850,11 @@ msgstr ""
 
 #: includes/integrations/subscriptions/class-wc-memberships-integration-subscriptions-user-memberships.php:624
 msgid "Subscription%s invalid or not found."
-msgstr ""
+msgstr "Prenumeration %s ogiltig eller inte hittat."
 
 #: includes/integrations/subscriptions/class-wc-memberships-integration-subscriptions-user-memberships.php:638
 msgid "Invalid installment plan flag value."
-msgstr ""
+msgstr "Ogiltigt flaggvärde för avbetalningsplan."
 
 #: includes/integrations/subscriptions/class-wc-memberships-integration-subscriptions-user-memberships.php:645
 msgid ""
@@ -5216,7 +5231,7 @@ msgstr "Författare"
 
 #: templates/myaccount/my-membership-notes.php:65
 msgid "Note Content"
-msgstr ""
+msgstr "Anteckningsinnehåll"
 
 #: templates/myaccount/my-membership-products.php:40
 msgid "There are no products assigned to this membership."
@@ -5278,7 +5293,7 @@ msgstr "Importera medlemmar från Grupper"
 #: includes/class-wc-memberships-upgrade.php:131
 msgctxt "Page slug"
 msgid "content-restricted"
-msgstr ""
+msgstr "innehåll-begransat"
 
 #: includes/class-wc-memberships-user-memberships.php:785
 msgctxt "Membership Status"
