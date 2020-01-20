@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-01-07 10:23+0100\n"
+"PO-Revision-Date: 2020-01-20 21:28+0100\n"
 "Language-Team: \n"
 "X-Generator: Poedit 2.2.4\n"
 "Last-Translator: \n"
@@ -4502,7 +4502,7 @@ msgstr "Du kan se mer detaljer över ditt medlemskap från %1$sditt konto%2$s."
 
 #: includes/functions/wc-memberships-functions-orders.php:315
 msgid "You can view details for each membership in your account:"
-msgstr "Du kan visa detaljer för varje medlemskap i ditt konto."
+msgstr "Du kan visa detaljer för varje medlemskap i ditt konto:"
 
 #: includes/integrations/groups/class-wc-memberships-integration-groups.php:71
 msgid "Groups Integration"
