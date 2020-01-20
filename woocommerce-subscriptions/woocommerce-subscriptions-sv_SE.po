@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-01-20 20:29+0100\n"
+"PO-Revision-Date: 2020-01-20 21:57+0100\n"
 "Language-Team: Prospress Translations <translations@prospress.com>\n"
 "X-Generator: Poedit 2.2.4\n"
 "Last-Translator: \n"
@@ -112,7 +112,7 @@ msgstr ""
 "Frakt för prenumerationsprodukter debiteras normalt vid den första "
 "beställningen och alla förnyelsebeställningar. Aktivera detta för att bara "
 "betala frakt i den första beställningen. Obs! För att den här inställningen "
-"ska kunna aktiveras får prenumerationen inte ha en kostnadsfri testperiod "
+"ska kunna aktiveras får prenumerationen inte ha en kostnadsfri provperiod "
 "eller ett synkroniserat förnyelsedatum."
 
 #: includes/admin/class-wc-subscriptions-admin.php:436
@@ -524,12 +524,12 @@ msgstr "Visar beställningar för %sprenumeration %s%s"
 #. translators: number of 1$: days, 2$: weeks, 3$: months, 4$: years
 #: includes/admin/class-wc-subscriptions-admin.php:1602
 msgid "The trial period can not exceed: %1s, %2s, %3s or %4s."
-msgstr "Testperioden kan inte överskrida:  %1s, %2s, %3s eller %4s."
+msgstr "Provperioden kan inte överskrida:  %1s, %2s, %3s eller %4s."
 
 #. translators: placeholder is a time period (e.g. "4 weeks")
 #: includes/admin/class-wc-subscriptions-admin.php:1607
 msgid "The trial period can not exceed %s."
-msgstr "Testperioden kan inte överskrida: %s."
+msgstr "Provperioden kan inte överskrida: %s."
 
 #: includes/admin/class-wc-subscriptions-admin.php:1670
 #: includes/admin/class-wc-subscriptions-admin.php:1737
@@ -669,7 +669,7 @@ msgstr "Skapar en väntande förnyelsebeställning"
 
 #: includes/admin/class-wcs-admin-meta-boxes.php:165
 msgid "Create pending parent order"
-msgstr ""
+msgstr "Skapa väntande överordnad order"
 
 #: includes/admin/class-wcs-admin-meta-boxes.php:169
 msgid "Retry Renewal Payment"
@@ -681,15 +681,15 @@ msgstr "Behandling av förnyelsebeställning begärd av administratör."
 
 #: includes/admin/class-wcs-admin-meta-boxes.php:193
 msgid "Create pending renewal order requested by admin action."
-msgstr ""
+msgstr "Skapa väntande överordnad order som begärts av administratörs åtgärd."
 
 #: includes/admin/class-wcs-admin-meta-boxes.php:234
 msgid "Create pending parent order requested by admin action."
-msgstr ""
+msgstr "Skapa väntande överordnad order som begärts av administratörs åtgärd."
 
 #: includes/admin/class-wcs-admin-meta-boxes.php:265
 msgid "Retry renewal payment action requested by admin."
-msgstr ""
+msgstr "Försök förnyelsebetalningsåtgärd som begärts av admin."
 
 #: includes/admin/class-wcs-admin-post-types.php:214
 msgid "Search for a product&hellip;"
@@ -699,16 +699,16 @@ msgstr "Sök efter en produkt&hellip;"
 #: includes/admin/class-wcs-admin-post-types.php:391
 msgid "%s subscription status changed."
 msgid_plural "%s subscription statuses changed."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s prenumerationsstatus ändrad."
+msgstr[1] "%s prenumerationsstatusar ändrade."
 
 #. translators: 1$: is the number of subscriptions not updated, 2$: is the
 #. error message
 #: includes/admin/class-wcs-admin-post-types.php:398
 msgid "%1$s subscription could not be updated: %2$s"
 msgid_plural "%1$s subscriptions could not be updated: %2$s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$s prenumeration kunde inte uppdateras: %2$s"
+msgstr[1] "%1$s prenumerationer kunde inte uppdateras: %2$s"
 
 #: includes/admin/class-wcs-admin-post-types.php:422
 #: includes/admin/meta-boxes/views/html-related-orders-table.php:20
@@ -832,13 +832,15 @@ msgstr "Via %s"
 
 #: includes/admin/class-wcs-admin-post-types.php:643
 msgid "Y/m/d g:i:s A"
-msgstr ""
+msgstr "Y/m/d g:i:s A"
 
 #: includes/admin/class-wcs-admin-post-types.php:646
 msgid ""
 "This date should be treated as an estimate only. The payment gateway for "
 "this subscription controls when payments are processed."
 msgstr ""
+"Detta datum bör behandlas som en uppskattning. Prenumerationens "
+"betalningsgateway styr när betalningarna bearbetas."
 
 #: includes/admin/class-wcs-admin-post-types.php:899
 #: includes/admin/class-wcs-admin-post-types.php:902
@@ -869,7 +871,7 @@ msgstr "Prenumeration schemalagd för: %1$s."
 
 #: includes/admin/class-wcs-admin-post-types.php:910
 msgid "Subscription draft updated."
-msgstr ""
+msgstr "Prenumerationsutkast uppdateras."
 
 #: includes/admin/class-wcs-admin-post-types.php:946
 msgid "Any Payment Method"
@@ -901,7 +903,7 @@ msgstr "Prenumerationshändelser efter datum"
 
 #: includes/admin/class-wcs-admin-reports.php:55
 msgid "Upcoming Recurring Revenue"
-msgstr ""
+msgstr "Kommande återkommande intäkter"
 
 #: includes/admin/class-wcs-admin-reports.php:61
 msgid "Retention Rate"
@@ -926,7 +928,7 @@ msgstr "WooCommerce"
 
 #: includes/admin/class-wcs-admin-system-status.php:57
 msgid "This section shows any information about Subscriptions."
-msgstr "Denna sektion visar all information om Subscriptions."
+msgstr "Detta avsnitt visar all information om Subscriptions."
 
 #: includes/admin/class-wcs-admin-system-status.php:61
 msgid "Store Setup"
@@ -942,7 +944,7 @@ msgstr "Prenumerationer efter betalningsgateway"
 
 #: includes/admin/class-wcs-admin-system-status.php:67
 msgid "This section shows information about Subscription payment methods."
-msgstr ""
+msgstr "Detta avsnitt visar information om Subscriptions betalningsmetoder."
 
 #: includes/admin/class-wcs-admin-system-status.php:71
 msgid "Payment Gateway Support"
@@ -951,6 +953,7 @@ msgstr "Support för betalningsgateway"
 #: includes/admin/class-wcs-admin-system-status.php:72
 msgid "This section shows information about payment gateway feature support."
 msgstr ""
+"Detta avsnitt visar information om funktionsstöd för betalningsgateway."
 
 #: includes/admin/class-wcs-admin-system-status.php:144
 msgid "%sLearn how to update%s"
@@ -959,7 +962,7 @@ msgstr "%sLäs om hur du uppdaterar%s"
 #. translators: %1$s is the file version, %2$s is the core version
 #: includes/admin/class-wcs-admin-system-status.php:190
 msgid "version %1$s is out of date. The core version is %2$s"
-msgstr ""
+msgstr "version %1$s är inaktuell. Kärnversionen är %2$s"
 
 #: includes/admin/meta-boxes/class-wcs-meta-box-subscription-data.php:54
 msgid "Customer:"
@@ -1718,7 +1721,7 @@ msgstr "Prenumerationens startdatum."
 #: includes/api/class-wc-rest-subscriptions-controller.php:516
 #: includes/api/legacy/class-wc-rest-subscriptions-controller.php:375
 msgid "The subscription's trial date"
-msgstr ""
+msgstr "Prenumerationens provperiod"
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:521
 #: includes/api/legacy/class-wc-rest-subscriptions-controller.php:380
@@ -2176,11 +2179,11 @@ msgstr ""
 
 #: includes/class-wc-subscriptions-coupon.php:165
 msgid "Recurring Product Discount"
-msgstr ""
+msgstr "Återkommande produkt rabatt"
 
 #: includes/class-wc-subscriptions-coupon.php:166
 msgid "Recurring Product % Discount"
-msgstr ""
+msgstr "Återkommande produkt % rabatt"
 
 #: includes/class-wc-subscriptions-coupon.php:456
 msgid ""
@@ -2226,15 +2229,15 @@ msgstr ""
 
 #: includes/class-wc-subscriptions-coupon.php:693
 msgid "Renewal % discount"
-msgstr ""
+msgstr "Förnyelserabatt %"
 
 #: includes/class-wc-subscriptions-coupon.php:694
 msgid "Renewal product discount"
-msgstr ""
+msgstr "Förnyelseproduktrabatt"
 
 #: includes/class-wc-subscriptions-coupon.php:695
 msgid "Renewal cart discount"
-msgstr ""
+msgstr "Rabatt på varukorg vid förnyelse"
 
 #: includes/class-wc-subscriptions-coupon.php:696
 msgid "Initial payment discount"
@@ -2257,7 +2260,7 @@ msgstr ""
 
 #: includes/class-wc-subscriptions-coupon.php:947
 msgid "Active for x payments"
-msgstr ""
+msgstr "Aktiv för x betalningar"
 
 #: includes/class-wc-subscriptions-coupon.php:948
 msgid "Unlimited payments"
@@ -3521,7 +3524,7 @@ msgstr ""
 
 #: includes/emails/class-wcs-email-processing-renewal-order.php:24
 msgid "Processing Renewal order"
-msgstr ""
+msgstr "Bearbetar förnyelseorder"
 
 #: includes/emails/class-wcs-email-processing-renewal-order.php:25
 msgid ""
@@ -3532,11 +3535,11 @@ msgstr ""
 
 #: includes/emails/class-wcs-email-processing-renewal-order.php:28
 msgid "Thank you for your order"
-msgstr ""
+msgstr "Tack för din beställning"
 
 #: includes/emails/class-wcs-email-processing-renewal-order.php:29
 msgid "Your {blogname} renewal order receipt from {order_date}"
-msgstr ""
+msgstr "Kvitto på förnyelse av prenumeration på {blogname} {order_date}"
 
 #: includes/gateways/class-wc-subscriptions-payment-gateways.php:134
 msgid ""
@@ -3554,40 +3557,41 @@ msgstr ""
 
 #: includes/gateways/class-wc-subscriptions-payment-gateways.php:270
 msgid "Supported features:"
-msgstr ""
+msgstr "Funktioner som stöds:"
 
 #: includes/gateways/class-wc-subscriptions-payment-gateways.php:273
 msgid "Subscription features:"
-msgstr ""
+msgstr "Prenumerationsfunktioner:"
 
 #: includes/gateways/class-wc-subscriptions-payment-gateways.php:277
 msgid "Change payment features:"
-msgstr ""
+msgstr "Ändra betalningsfunktioner:"
 
 #: includes/gateways/paypal/class-wcs-paypal.php:220
 msgid "Unable to find order for PayPal billing agreement."
-msgstr ""
+msgstr "Det går inte att hitta beställning för PayPals faktureringsavtal."
 
 #: includes/gateways/paypal/class-wcs-paypal.php:282
 msgid ""
 "An error occurred, please try again or try an alternate form of payment."
 msgstr ""
+"Ett fel uppstod, försök igen eller prova ett alternativt betalningssätt."
 
 #. translators: placeholders are PayPal API error code and PayPal API error
 #. message
 #: includes/gateways/paypal/class-wcs-paypal.php:386
 msgid "PayPal API error: (%d) %s"
-msgstr ""
+msgstr "PayPal API-fel: (% d) %s"
 
 #. translators: placeholder is PayPal transaction status message
 #: includes/gateways/paypal/class-wcs-paypal.php:391
 msgid "PayPal Transaction Held: %s"
-msgstr ""
+msgstr "PayPal-transaktion hålls:%s"
 
 #. translators: placeholder is PayPal transaction status message
 #: includes/gateways/paypal/class-wcs-paypal.php:403
 msgid "PayPal payment declined: %s"
-msgstr ""
+msgstr "PayPal betalning nekades: %s"
 
 #: includes/gateways/paypal/class-wcs-paypal.php:407
 msgid "PayPal payment approved (ID: %s)"
@@ -4271,7 +4275,7 @@ msgstr ""
 #: includes/upgrades/templates/wcs-about.php:170
 #: includes/upgrades/templates/wcs-about.php:191
 msgid "%sLearn more &raquo;%s"
-msgstr ""
+msgstr "%sLäs mer &raquo;%s"
 
 #. translators: placeholders are opening and closing <strong> tags
 #: includes/upgrades/templates/wcs-about-2-0.php:124
@@ -4298,7 +4302,7 @@ msgstr ""
 
 #: includes/upgrades/templates/wcs-about-2-0.php:150
 msgid "And much more..."
-msgstr ""
+msgstr "Och mycket mer…"
 
 #: includes/upgrades/templates/wcs-about-2-0.php:157
 #: includes/upgrades/templates/wcs-about.php:151
@@ -4390,7 +4394,7 @@ msgstr ""
 
 #: includes/upgrades/templates/wcs-about.php:49
 msgid "Subscription Reports"
-msgstr ""
+msgstr "Prenumerationsrapporter"
 
 #: includes/upgrades/templates/wcs-about.php:50
 msgid ""
@@ -4766,7 +4770,7 @@ msgstr ""
 
 #: includes/upgrades/templates/wcs-upgrade.php:71
 msgid "Update Error"
-msgstr ""
+msgstr "Uppdateringsfel"
 
 #: includes/upgrades/templates/wcs-upgrade.php:72
 msgid ""
@@ -4775,7 +4779,7 @@ msgstr ""
 
 #: includes/wcs-cart-functions.php:83 includes/wcs-cart-functions.php:84
 msgid "Shipping via %s"
-msgstr ""
+msgstr "Frakt via %s"
 
 #: includes/wcs-cart-functions.php:103
 msgid "Shipping"
@@ -4928,76 +4932,76 @@ msgstr ""
 
 #: includes/wcs-order-functions.php:560
 msgid "Invalid data. No valid subscription / order was passed in."
-msgstr ""
+msgstr "Ogiltiga data. Ingen giltig prenumeration / beställningen lämnades in."
 
 #: includes/wcs-order-functions.php:564
 msgid "Invalid data. No valid item id was passed in."
-msgstr ""
+msgstr "Ogiltiga data. Inget giltigt id skickades in."
 
 #: includes/wcs-time-functions.php:55
 msgid "%s day"
 msgid_plural "a %s-day"
-msgstr[0] ""
+msgstr[0] "%s dag"
 msgstr[1] ""
 
 #: includes/wcs-time-functions.php:56
 msgid "%s week"
 msgid_plural "a %s-week"
-msgstr[0] ""
+msgstr[0] "%s vecka"
 msgstr[1] ""
 
 #: includes/wcs-time-functions.php:57
 msgid "%s month"
 msgid_plural "a %s-month"
-msgstr[0] ""
+msgstr[0] "%s månad"
 msgstr[1] ""
 
 #: includes/wcs-time-functions.php:58
 msgid "%s year"
 msgid_plural "a %s-year"
-msgstr[0] ""
+msgstr[0] "%s år"
 msgstr[1] ""
 
 #: includes/wcs-user-functions.php:340
 #: templates/single-product/add-to-cart/subscription.php:30
 #: templates/single-product/add-to-cart/variable-subscription.php:28
 msgid "Resubscribe"
-msgstr ""
+msgstr "Återprenumerera"
 
 #. translators: placeholder is a currency symbol / code
 #: templates/admin/deprecated/html-variation-price.php:20
 #: templates/admin/deprecated/html-variation-price.php:30
 msgid "Subscription Price (%s)"
-msgstr ""
+msgstr "Prenumerationspris (%s)"
 
 #: templates/admin/deprecated/html-variation-price.php:46
 msgid "Subscription Periods"
-msgstr ""
+msgstr "Prenumerationsperioder"
 
 #: templates/admin/deprecated/html-variation-price.php:69
 msgid "Subscription Length"
-msgstr ""
+msgstr "Prenumerationens längd"
 
 #: templates/admin/deprecated/html-variation-price.php:85
 msgid "Sign-up Fee (%s)"
-msgstr ""
+msgstr "Startkostnad (%s)"
 
 #: templates/admin/deprecated/html-variation-price.php:97
 #: templates/admin/deprecated/html-variation-price.php:104
 msgid "Free Trial"
-msgstr "Gratis testperiod"
+msgstr "Gratis provperiod"
 
 #: templates/admin/deprecated/html-variation-synchronisation.php:30
 msgid "Synchronise Renewals"
-msgstr ""
+msgstr "Synkronisera förnyelser"
 
 #: templates/admin/deprecated/order-shipping-html.php:8
 msgid "Label"
-msgstr ""
+msgstr "Etikett"
 
 #: templates/admin/deprecated/order-shipping-html.php:13
 msgid "Shipping Method"
-msgstr ""
+msgstr "Leveranssätt"
 
 #: templates/admin/deprecated/order-shipping-html.php:34
 #: templates/admin/deprecated/order-shipping-html.php:36
@@ -5040,7 +5044,7 @@ msgstr ""
 
 #: templates/admin/html-variation-price.php:31
 msgid "Subscription trial period:"
-msgstr ""
+msgstr "Prenumerationens provperiod: "
 
 #: templates/admin/html-variation-price.php:49
 msgid "Billing interval:"
@@ -5811,9 +5815,10 @@ msgstr "Prenumeration #%s"
 #. translators: php date format
 #: includes/admin/meta-boxes/views/html-related-orders-row.php:30
 #: includes/admin/meta-boxes/views/html-retries-table.php:44
+#, fuzzy
 msgctxt "post date"
 msgid "Y/m/d g:i:s A"
-msgstr ""
+msgstr "Y/m/d g:i:s A"
 
 #: includes/admin/meta-boxes/views/html-related-orders-table.php:21
 #: templates/myaccount/my-subscriptions.php:24
