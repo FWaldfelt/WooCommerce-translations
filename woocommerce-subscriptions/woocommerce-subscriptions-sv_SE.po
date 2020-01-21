@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-01-20 23:27+0100\n"
+"PO-Revision-Date: 2020-01-21 12:49+0100\n"
 "Language-Team: Fredrik Waldfelt<fredrik@waldfelt.com>\n"
 "X-Generator: Poedit 2.2.4\n"
 "Last-Translator: \n"
@@ -2470,14 +2470,14 @@ msgstr "%1$s nu, och "
 #: includes/wcs-formatting-functions.php:102
 #: includes/wcs-formatting-functions.php:186
 msgid "%1$s every %2$s"
-msgstr "%1$s varje %2$s"
+msgstr "%1$s var %2$s"
 
 #. translators: 1$: recurring amount string, 2$: period, 3$: day of the week
 #. (e.g. "$10 every 2nd week on Wednesday")
 #: includes/class-wc-subscriptions-product.php:330
 #: includes/wcs-formatting-functions.php:111
 msgid "%1$s every %2$s on %3$s"
-msgstr "%1$s varje %2$s på %3$s"
+msgstr "%1$s var %2$s på %3$s"
 
 #. translators: placeholder is recurring amount
 #: includes/class-wc-subscriptions-product.php:337
@@ -2497,7 +2497,7 @@ msgstr "%1$s den %2$s varje månad"
 #: includes/class-wc-subscriptions-product.php:345
 #: includes/wcs-formatting-functions.php:148
 msgid "%1$s on the last day of every %2$s month"
-msgstr "%1$s på den sista dagen av varje %2$s månad"
+msgstr "%1$s på den sista dagen av var %2$s månad"
 
 #. translators: 1$: <price> on the, 2$: <date> day of every, 3$: <interval>
 #. month (e.g. "$10 on the 23rd day of every 2nd month")
@@ -2506,7 +2506,7 @@ msgstr "%1$s på den sista dagen av varje %2$s månad"
 #: includes/class-wc-subscriptions-product.php:348
 #: includes/wcs-formatting-functions.php:151
 msgid "%1$s on the %2$s day of every %3$s month"
-msgstr "%1$s den %2$s dag varje %3$s månad"
+msgstr "%1$s den %2$s dag var %3$s månad"
 
 #. translators: 1$: <price> on, 2$: <date>, 3$: <month> each year (e.g. "$15 on
 #. March 15th each year")
@@ -2531,12 +2531,12 @@ msgstr "%1$s på %2$s %3$s var %4$s år"
 msgid "%1$s / %2$s"
 msgid_plural "%1$s every %2$s"
 msgstr[0] "%1$s / %2$s"
-msgstr[1] "%1$s varje %2$s"
+msgstr[1] "%1$s var %2$s"
 
 #. translators: billing period (e.g. "every week")
 #: includes/class-wc-subscriptions-product.php:370
 msgid "every %s"
-msgstr "varje %s"
+msgstr "var %s"
 
 #. translators: 1$: subscription string (e.g. "$10 up front then $5 on March
 #. 23rd every 3rd year"), 2$: length (e.g. "4 years")
@@ -2694,7 +2694,7 @@ msgstr "Tillåt växling"
 
 #: includes/class-wc-subscriptions-switcher.php:1105
 msgid "Switch order cancelled due to a new switch order being created #%s."
-msgstr ""
+msgstr "Växlingsbeställning avbruten på grund av att en ny växling skapas #%s."
 
 #: includes/class-wc-subscriptions-switcher.php:1193
 msgid "Switch Order"
@@ -2726,11 +2726,12 @@ msgstr ""
 
 #: includes/class-wc-subscriptions-switcher.php:1490
 msgid "There was an error locating the switch details."
-msgstr ""
+msgstr "Det gick inte att hitta växlingsdetaljerna."
 
 #: includes/class-wc-subscriptions-switcher.php:1963
 msgid "The original subscription item being switched cannot be found."
 msgstr ""
+"Den ursprungliga prenumerationsprodukten som ska växlas kan inte hittas."
 
 #: includes/class-wc-subscriptions-switcher.php:1965
 msgid "The item on the switch order cannot be found."
@@ -2847,7 +2848,7 @@ msgstr ""
 
 #: includes/class-wcs-cached-data-manager.php:127
 msgid "new related order methods in WCS_Related_Order_Store"
-msgstr ""
+msgstr "nya relaterade beställningsmetoder i WCS_Related_Order_Store"
 
 #: includes/class-wcs-cached-data-manager.php:225
 msgid "Weekly"
@@ -2897,7 +2898,11 @@ msgid_plural ""
 "We couldn't find the original subscriptions for items in your cart. The "
 "items were removed."
 msgstr[0] ""
+"Vi kan inte hitta det ursprungliga prenumerationen för en artikel i din "
+"kundvagn. Artikeln togs bort."
 msgstr[1] ""
+"Vi kan inte hitta det ursprungliga prenumerationen för artiklar i din "
+"kundvagn. Artiklarna togs bort."
 
 #: includes/class-wcs-cart-renewal.php:397
 msgid ""
@@ -2907,7 +2912,11 @@ msgid_plural ""
 "We couldn't find the original renewal orders for items in your cart. The "
 "items were removed."
 msgstr[0] ""
+"Vi kunde inte hitta den ursprungliga förnyelsebeställningen för en artikel i "
+"din kundvagn. Artikeln togs bort."
 msgstr[1] ""
+"Vi kunde inte hitta den ursprungliga förnyelsebeställningen för artiklar i "
+"din kundvagn. Artikelarna togs bort."
 
 #: includes/class-wcs-cart-renewal.php:664
 msgid "All linked subscription items have been removed from the cart."
@@ -2937,7 +2946,7 @@ msgstr "Slutför kassan för att prenumera på nytt."
 
 #: includes/class-wcs-cart-resubscribe.php:319
 msgid "Customer resubscribed in order #%s"
-msgstr ""
+msgstr "Kund återprenumererade i beställning: #%s"
 
 #: includes/class-wcs-change-payment-method-admin.php:112
 msgid "Please choose a valid payment gateway to change to."
@@ -2977,11 +2986,11 @@ msgstr "Begränsa till en av valfri status"
 
 #: includes/class-wcs-my-account-auto-renew-toggle.php:135
 msgid "Auto Renewal Toggle"
-msgstr ""
+msgstr "Växlingsknapp för automatisk förnyelse"
 
 #: includes/class-wcs-my-account-auto-renew-toggle.php:136
 msgid "Display the auto renewal toggle"
-msgstr ""
+msgstr "Visa växlingsknappen för automatisk förnyelse"
 
 #: includes/class-wcs-my-account-auto-renew-toggle.php:137
 msgid ""
@@ -6699,7 +6708,7 @@ msgctxt "Subscription billing period."
 msgid "month"
 msgid_plural "%s months"
 msgstr[0] "månad"
-msgstr[1] "%s månader"
+msgstr[1] "%s månad"
 
 #. translators: placeholder is number of years. (e.g. "Bill this every year / 4
 #. years")
@@ -6738,14 +6747,14 @@ msgstr "1 år"
 #: includes/wcs-time-functions.php:149
 msgctxt "period interval (eg \"$10 _every_ 2 weeks\")"
 msgid "every"
-msgstr "varje"
+msgstr "var"
 
 #. translators: period interval, placeholder is ordinal (eg "$10 every
 #. _2nd/3rd/4th_", etc)
 #: includes/wcs-time-functions.php:153
 msgctxt "period interval with ordinal number (e.g. \"every 2nd\""
 msgid "every %s"
-msgstr "varje %s"
+msgstr "var %s"
 
 #: includes/wcs-time-functions.php:177
 msgctxt ""
