@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-01-21 12:49+0100\n"
+"PO-Revision-Date: 2020-01-21 20:45+0100\n"
 "Language-Team: Fredrik Waldfelt<fredrik@waldfelt.com>\n"
 "X-Generator: Poedit 2.2.4\n"
 "Last-Translator: \n"
@@ -508,6 +508,8 @@ msgid ""
 "We weren't able to locate the set of report results you requested. Please "
 "regenerate the link from the %sSubscription Reports screen%s."
 msgstr ""
+"Vi kunde inte hitta den uppsättning av rapportresultat du begärde. Återskapa "
+"länken från %sSubscriptions rapporter%s."
 
 #: includes/admin/class-wc-subscriptions-admin.php:1541
 msgid "We can't find a paid subscription order for this user."
@@ -1108,6 +1110,10 @@ msgid ""
 "processed in the future, failed means the payment was not successful when "
 "retried and completed means the payment succeeded when retried."
 msgstr ""
+"Statusen för automatiskt betalningsförsök: väntande betyder att ett nytt "
+"försök kommer behandlas i framtiden, misslyckat betyder att betalningen inte "
+"lyckades vid nytt försök och slutförd betyder att betalningen lyckades vid "
+"nytt försök."
 
 #: includes/admin/meta-boxes/views/html-retries-table.php:23
 msgid "Status of Order"
@@ -1118,6 +1124,9 @@ msgid ""
 "The status applied to the order for the time between when the renewal "
 "payment failed or last retry occurred and when this retry was processed."
 msgstr ""
+"Den status som tillämpas för beställningen för tiden mellan "
+"förnyelsebetalningens misslyckande eller det senaste försöket, och när detta "
+"försök bearbetades."
 
 #: includes/admin/meta-boxes/views/html-retries-table.php:27
 msgid "Status of Subscription"
@@ -1128,6 +1137,9 @@ msgid ""
 "The status applied to the subscription for the time between when the renewal "
 "payment failed or last retry occurred and when this retry was processed."
 msgstr ""
+"Statusen gällande prenumerationen för tiden mellan när förnyelsebetalningen "
+"misslyckades eller det senaste försöket gjordes och när det här försöket "
+"bearbetades."
 
 #: includes/admin/meta-boxes/views/html-retries-table.php:31
 msgid "Email"
@@ -1138,6 +1150,9 @@ msgid ""
 "The email sent to the customer when the renewal payment or payment retry "
 "failed to notify them that the payment would be retried."
 msgstr ""
+"E-postmeddelandet som skickas till kunden när förnyelsebetalningen eller "
+"betalningsförsöket misslyckats, för att meddela dem att betalningen ska "
+"försökas igen."
 
 #: includes/admin/meta-boxes/views/html-subscription-schedule.php:22
 #: includes/early-renewal/class-wcs-early-renewal-modal-handler.php:72
@@ -1167,6 +1182,9 @@ msgid ""
 "of date by up to 24 hours. The cache is updated each morning at 4am in your "
 "site's timezone."
 msgstr ""
+"Observera: data för denna rapport är cachelagras. De data som visas kan vara "
+"inaktuella med upp till 24 timmar. Cachen uppdateras varje morgon kl. 4 i "
+"din webbplats tidszon."
 
 #: includes/admin/reports/class-wcs-report-cache-manager.php:335
 msgid "Cache Update Failures"
@@ -1286,10 +1304,9 @@ msgid "Average Lifetime Value"
 msgstr "Genomsnittligt livslängdsvärde"
 
 #: includes/admin/reports/class-wcs-report-subscription-by-customer.php:50
-#, fuzzy
 msgid "The average value of all customers' sign-up, switch and renewal orders."
 msgstr ""
-"Det genomsnittliga värdet på alla kunders start-(sign-up), växlings- och "
+"Det genomsnittliga värdet på alla kunders registrerings-, växlings- och "
 "förnyelsebeställningar."
 
 #: includes/admin/reports/class-wcs-report-subscription-by-customer.php:98
@@ -1634,24 +1651,28 @@ msgid ""
 "The number of renewal payment retries for this period which were able to "
 "process the payment which had previously failed one or more times."
 msgstr ""
+"Antalet försök av förnyelsebetalningar denna period som kunde hantera "
+"betalningen som tidigare misslyckats en eller flera gånger."
 
 #: includes/admin/reports/class-wcs-report-subscription-payment-retry.php:132
 msgid "%s retry attempts failed"
-msgstr ""
+msgstr "%s misslyckade återförsök"
 
 #: includes/admin/reports/class-wcs-report-subscription-payment-retry.php:133
 msgid ""
 "The number of renewal payment retries for this period which did not result "
 "in a successful payment."
 msgstr ""
+"Antalet försök av förnyelsebetalningar denna period som inte resulterade i "
+"en lyckad betalning."
 
 #: includes/admin/reports/class-wcs-report-subscription-payment-retry.php:139
 msgid "%s retry attempts pending"
-msgstr ""
+msgstr "%s väntande återförsök"
 
 #: includes/admin/reports/class-wcs-report-subscription-payment-retry.php:140
 msgid "The number of renewal payment retries not yet processed."
-msgstr ""
+msgstr "Antal återförsök för förnyelsebetalningar som inte har behandlats än."
 
 #: includes/admin/reports/class-wcs-report-subscription-payment-retry.php:242
 msgid "Successful retries"
@@ -1883,15 +1904,15 @@ msgstr "Ogiltig prenumerationsstatus angiven."
 
 #: includes/api/legacy/class-wc-api-subscriptions.php:124
 msgid "You do not have permission to read the subscriptions count"
-msgstr ""
+msgstr "Du har inte behörighet att läsa antalet prenumerationer"
 
 #: includes/api/legacy/class-wc-api-subscriptions.php:173
 msgid "You do not have permission to create subscriptions"
-msgstr ""
+msgstr "Du har inte behörighet att skapa prenumerationer"
 
 #: includes/api/legacy/class-wc-api-subscriptions.php:240
 msgid "The requested subscription cannot be edited."
-msgstr ""
+msgstr "Den begärda prenumerationen kan inte redigeras."
 
 #. translators: 1$: gateway id, 2$: error message
 #: includes/api/legacy/class-wc-api-subscriptions.php:345
@@ -1899,12 +1920,16 @@ msgid ""
 "Subscription payment method could not be set to %1$s and has been set to "
 "manual with error message: %2$s"
 msgstr ""
+"Betalningsmetoden för prenumeration kan inte sättas till %1$s och har satts "
+"till manuell med felmeddelande: %2$s"
 
 #: includes/api/legacy/class-wc-api-subscriptions.php:380 wcs-functions.php:152
 msgid ""
 "Invalid subscription billing interval given. Must be an integer greater than "
 "0."
 msgstr ""
+"Ogiltigt faktureringsintervall för prenumeration. Det måste vara ett heltal "
+"större än 0."
 
 #: includes/api/legacy/class-wc-api-subscriptions.php:391 wcs-functions.php:147
 msgid "Invalid subscription billing period given."
@@ -1912,20 +1937,20 @@ msgstr "Ogiltig faktureringsperiod för prenumeration angiven."
 
 #: includes/api/legacy/class-wc-rest-subscriptions-controller.php:240
 msgid "Cannot create subscription: %s."
-msgstr ""
+msgstr "Det går inte att skapa prenumeration: %s."
 
 #: includes/class-wc-subscription.php:415
 msgid "Unable to change subscription status to \"%s\"."
-msgstr ""
+msgstr "Det går inte att ändra prenumerationsstatus till ”%s”."
 
 #: includes/class-wc-subscription.php:529
 msgid "Unable to change subscription status to \"%s\". Exception: %s"
-msgstr ""
+msgstr "Det går inte att ändra prenumerationsstatus till ”%s”. Undantag: %s"
 
 #. translators: 1: old subscription status 2: new subscription status
 #: includes/class-wc-subscription.php:559
 msgid "Status changed from %1$s to %2$s."
-msgstr ""
+msgstr "Status ändrad från %1$s till %2$s."
 
 #. translators: %s: new order status
 #: includes/class-wc-subscription.php:573
@@ -1934,7 +1959,7 @@ msgstr "Status satt till %s."
 
 #: includes/class-wc-subscription.php:587
 msgid "Error during subscription status transition."
-msgstr ""
+msgstr "Ett fel uppstod vid byte av status på prenumeration."
 
 #. translators: placeholder is human time diff (e.g. "3 weeks")
 #: includes/class-wc-subscription.php:1183
@@ -1958,7 +1983,7 @@ msgstr "Inte avbruten"
 
 #: includes/class-wc-subscription.php:1309
 msgid "The creation date of a subscription can not be deleted, only updated."
-msgstr ""
+msgstr "Skapandedatum för en prenumeration kan inte raderas, bara uppdateras."
 
 #: includes/class-wc-subscription.php:1312
 msgid "The start date of a subscription can not be deleted, only updated."
@@ -1968,6 +1993,7 @@ msgstr "Startdatumet för en prenumeration kan inte raderas, bara uppdateras."
 msgid ""
 "The %s date of a subscription can not be deleted. You must delete the order."
 msgstr ""
+"%s datum för prenumeration kan inte raderas. Du måste radera beställningen."
 
 #: includes/class-wc-subscription.php:1324
 #: includes/class-wc-subscription.php:2416
@@ -1985,6 +2011,8 @@ msgstr "Betalning misslyckades."
 #: includes/class-wc-subscription.php:1771
 msgid "Subscription Cancelled: maximum number of failed payments reached."
 msgstr ""
+"Prenumeration avbruten: maximalt antal misslyckade betalningsförsök har "
+"uppnåtts."
 
 #: includes/class-wc-subscription.php:1881
 msgid ""
@@ -1997,7 +2025,7 @@ msgstr ""
 
 #: includes/class-wc-subscription.php:2078 wcs-functions.php:823
 msgid "Payment method meta must be an array."
-msgstr ""
+msgstr "Betalningsmetods meta måste vara en array."
 
 #: includes/class-wc-subscription.php:2314
 msgid "Invalid format. First parameter needs to be an array."
@@ -2006,32 +2034,36 @@ msgstr "Ogiltigt format. Första parametern måste vara en array."
 #: includes/class-wc-subscription.php:2318
 msgid "Invalid data. First parameter was empty when passed to update_dates()."
 msgstr ""
+"Ogiltiga data: Första parametern var tom när det skickades till "
+"update_dates()"
 
 #: includes/class-wc-subscription.php:2325
 msgid ""
 "Invalid data. First parameter has a date that is not in the registered date "
 "types."
 msgstr ""
+"Ogiltiga data: Första parametern har ett datum som inte finns i de "
+"registrerade datumtyperna."
 
 #: includes/class-wc-subscription.php:2389
 msgid "The %s date must occur after the cancellation date."
-msgstr ""
+msgstr "%s datum måste infalla efter avbrottsdatumet."
 
 #: includes/class-wc-subscription.php:2394
 msgid "The %s date must occur after the last payment date."
-msgstr ""
+msgstr "%s datum måste vara infalla det senaste betalningsdatumet."
 
 #: includes/class-wc-subscription.php:2398
 msgid "The %s date must occur after the next payment date."
-msgstr ""
+msgstr "%s date måste infalla efter nästa betalningsdatum."
 
 #: includes/class-wc-subscription.php:2403
 msgid "The %s date must occur after the trial end date."
-msgstr ""
+msgstr "%s datum måste infalla efter provperiodens slutdatum."
 
 #: includes/class-wc-subscription.php:2407
 msgid "The %s date must occur after the start date."
-msgstr ""
+msgstr "%s datum måste infalla efter startdatumet."
 
 #: includes/class-wc-subscription.php:2436
 #: includes/class-wc-subscriptions-checkout.php:328
@@ -2056,6 +2088,7 @@ msgstr ""
 #: includes/class-wc-subscriptions-addresses.php:84
 msgid "Update the %1$s used for %2$sall%3$s of my active subscriptions"
 msgstr ""
+"Uppdatera %1$s som används för %2$salla%3$s mina aktiva prenumerationer"
 
 #: includes/class-wc-subscriptions-cart-validator.php:56
 #: woocommerce-subscriptions.php:498
@@ -2063,6 +2096,8 @@ msgid ""
 "A subscription renewal has been removed from your cart. Multiple "
 "subscriptions can not be purchased at the same time."
 msgstr ""
+"En prenumerationsförnyelse har tagits bort från din varukorg. Flera "
+"prenumerationer kan inte köpas samtidigt."
 
 #: includes/class-wc-subscriptions-cart-validator.php:62
 #: woocommerce-subscriptions.php:504
@@ -2081,12 +2116,16 @@ msgid ""
 "A subscription has been removed from your cart. Products and subscriptions "
 "can not be purchased at the same time."
 msgstr ""
+"En prenumeration har tagits bort från din varukorg. Produkter och "
+"prenumerationer kan inte köpas samtidigt."
 
 #: includes/class-wc-subscriptions-cart-validator.php:110
 msgid ""
 "Your cart has been emptied of subscription products. Products and "
 "subscriptions cannot be purchased at the same time."
 msgstr ""
+"Din varukorg har tömts på prenumerationsprodukter. Produkter och "
+"prenumerationer kan inte köpas samtidigt."
 
 #: includes/class-wc-subscriptions-cart-validator.php:133
 #: includes/class-wc-subscriptions-cart.php:1412
@@ -2094,6 +2133,8 @@ msgid ""
 "That subscription product can not be added to your cart as it already "
 "contains a subscription renewal."
 msgstr ""
+"Den prenumerationsprodukten kan inte läggas till din varukorg eftersom den "
+"redan innehåller en prenumerationsförnyelse."
 
 #: includes/class-wc-subscriptions-cart.php:942
 msgid "Please enter a valid postcode/ZIP."
@@ -2194,17 +2235,19 @@ msgid ""
 "Please log in to your account below to choose a new payment method for your "
 "subscription."
 msgstr ""
+"Logga in på ditt konto nedan för att välja en ny betalningsmetod för din "
+"prenumeration."
 
 #. translators: placeholder is an internal error number
 #: includes/class-wc-subscriptions-checkout.php:188
 #: includes/class-wc-subscriptions-checkout.php:374
 msgid "Error %d: Unable to create subscription. Please try again."
-msgstr ""
+msgstr "Fel %d: Kan inte skapa prenumeration. Försök igen."
 
 #. translators: placeholder is an internal error number
 #: includes/class-wc-subscriptions-checkout.php:205
 msgid "Error %d: Unable to add tax to subscription. Please try again."
-msgstr ""
+msgstr "Fel %d: Kan inte lägga till moms på prenumeration. Försök igen."
 
 #. translators: placeholder is an internal error number
 #: includes/class-wc-subscriptions-checkout.php:217
@@ -2232,31 +2275,35 @@ msgid ""
 "Sorry, this coupon is only valid for an initial payment and the cart does "
 "not require an initial payment."
 msgstr ""
+"Tyvärr gäller denna rabattkod enbart för en startavgift och varukorgen "
+"innehåller inte en startavgift."
 
 #: includes/class-wc-subscriptions-coupon.php:462
 msgid "Sorry, this coupon is only valid for new subscriptions."
-msgstr ""
+msgstr "Tyvärr gäller denna rabattkod enbart för nya prenumerationer."
 
 #: includes/class-wc-subscriptions-coupon.php:467
 msgid "Sorry, this coupon is only valid for subscription products."
-msgstr ""
+msgstr "Tyvärr gäller denna rabattkod enbart för prenumerationsprodukter."
 
 #. translators: 1$: coupon code that is being removed
 #: includes/class-wc-subscriptions-coupon.php:473
 msgid "Sorry, the \"%1$s\" coupon is only valid for renewals."
-msgstr ""
+msgstr "Tyvärr gäller enbart rabattkoden ”%1$s” för förnyelser."
 
 #: includes/class-wc-subscriptions-coupon.php:478
 msgid ""
 "Sorry, this coupon is only valid for subscription products with a sign-up "
 "fee."
 msgstr ""
+"Tyvärr gäller denna rabattkod enbart för prenumerationsprodukter med en "
+"registreringsavgift."
 
 #: includes/class-wc-subscriptions-coupon.php:504
 msgid ""
 "Sorry, recurring coupons can only be applied to subscriptions or "
 "subscription orders."
-msgstr ""
+msgstr "Tyvärr kan inte återkommande rabattkoder."
 
 #. translators: placeholder is coupon code
 #: includes/class-wc-subscriptions-coupon.php:508
@@ -2264,10 +2311,13 @@ msgid ""
 "Sorry, \"%s\" can only be applied to subscription parent orders which "
 "contain a product with signup fees."
 msgstr ""
+"Tyvärr kan ”%s” endast tillämpas på prenumerationsbeställning som innehåller "
+"en produkt med registreringsavgifter."
 
 #: includes/class-wc-subscriptions-coupon.php:511
 msgid "Sorry, only recurring coupons can be applied to subscriptions."
 msgstr ""
+"Tyvärr kan återkommande rabattkoder enbart användas till prenumerationer."
 
 #: includes/class-wc-subscriptions-coupon.php:693
 msgid "Renewal % discount"
@@ -2328,16 +2378,16 @@ msgstr "Aktiv för obegränsade betalningar"
 
 #: includes/class-wc-subscriptions-manager.php:123
 msgid "Error: Unable to create renewal order with note \"%s\""
-msgstr ""
+msgstr "Fel: Det gick inte att skapa förnyelsebetalning med anteckning ”%s”"
 
 #: includes/class-wc-subscriptions-manager.php:137
 msgid "Manual renewal order awaiting customer payment."
-msgstr ""
+msgstr "Manuell förnyelsebeställning som väntar på kundbetalning."
 
 #: includes/class-wc-subscriptions-manager.php:169
 #: includes/gateways/class-wc-subscriptions-payment-gateways.php:213
 msgid "Subscription doesn't exist in scheduled action: %d"
-msgstr ""
+msgstr "Prenumeration existerar inte i schemalagd åtgärd: %d"
 
 #. translators: $1: order number, $2: error message
 #: includes/class-wc-subscriptions-manager.php:306
@@ -2839,12 +2889,12 @@ msgstr "Relaterade beställningar hanteras nu av %1$s."
 
 #: includes/class-wcs-cached-data-manager.php:86
 msgid "Customer subscription caching is now handled by %1$s."
-msgstr ""
+msgstr "Cachelagring av prenumerationer hanteras nu av %1$s."
 
 #: includes/class-wcs-cached-data-manager.php:110
 #: includes/class-wcs-cached-data-manager.php:240
 msgid "Customer subscription caching is now handled by %1$s and %2$s."
-msgstr ""
+msgstr "Cachelagring av prenumerationer hanteras nu av %1$s och %2$s."
 
 #: includes/class-wcs-cached-data-manager.php:127
 msgid "new related order methods in WCS_Related_Order_Store"
@@ -3019,13 +3069,15 @@ msgstr ""
 
 #: includes/class-wcs-my-account-payment-methods.php:121
 msgid "%s ending in %s"
-msgstr ""
+msgstr "%s slutar om %s"
 
 #: includes/class-wcs-my-account-payment-methods.php:153
 msgid ""
 "Would you like to update your subscriptions to use this new payment method - "
 "%1$s?%2$sYes%4$s | %3$sNo%4$s"
 msgstr ""
+"Vill du uppdatera dina prenumerationer att använda den här nya "
+"betalningsmetoden - %1$s?%2$sJa%4$s | %3$sNej%4$s"
 
 #. translators: 1$-2$: opening and closing <strong> tags.
 #: includes/class-wcs-permalink-manager.php:91
@@ -3051,7 +3103,7 @@ msgstr "Min prenumeration"
 
 #: includes/class-wcs-query.php:298
 msgid "Endpoint for the My Account &rarr; Subscriptions page"
-msgstr ""
+msgstr "Slutpunkt för Mitt konto &rarr; Prenumerationer"
 
 #: includes/class-wcs-query.php:306
 msgid "View subscription"
@@ -3059,7 +3111,7 @@ msgstr "Visa prenumeration"
 
 #: includes/class-wcs-query.php:307
 msgid "Endpoint for the My Account &rarr; View Subscription page"
-msgstr ""
+msgstr "Slutpunkt för Mitt Konto &rarr; Visa Prenumeration"
 
 #: includes/class-wcs-query.php:315
 msgid "Subscription payment method"
@@ -3068,18 +3120,18 @@ msgstr "Betalningssätt för prenumeration"
 #: includes/class-wcs-query.php:316
 msgid ""
 "Endpoint for the My Account &rarr; Change Subscription Payment Method page"
-msgstr ""
+msgstr "Slutpunkt för Mitt Konto &rarr; Ändra prenumerations betalningsmetod"
 
 #: includes/class-wcs-remove-item.php:108
 msgid "Your request to undo your previous action was unsuccessful."
-msgstr ""
+msgstr "Din begäran att ångra föregående åtgärd misslyckades."
 
 #. translators: placeholders are 1$: item name, and, 2$: opening and, 3$:
 #. closing link tags
 #: includes/class-wcs-remove-item.php:129
 msgid ""
 "You have successfully removed \"%1$s\" from your subscription. %2$sUndo?%3$s"
-msgstr ""
+msgstr "Du har tagit bort ”%1$s” från din prenumeration. %2$sÅngra?%3$s"
 
 #: includes/class-wcs-remove-item.php:165
 #: includes/class-wcs-user-change-status-handler.php:99
@@ -3149,6 +3201,8 @@ msgid ""
 "You can not reactivate that subscription until paying to renew it. Please "
 "contact us if you need assistance."
 msgstr ""
+"Du kan inte återaktivera den prenumeration innan du betalt för att förnya "
+"den. Kontakta oss om du behöver hjälp."
 
 #: includes/class-wcs-user-change-status-handler.php:70
 msgid ""
@@ -3159,7 +3213,7 @@ msgstr ""
 #: includes/class-wcs-user-change-status-handler.php:95
 msgid ""
 "That subscription does not exist. Please contact us if you need assistance."
-msgstr ""
+msgstr "Den prenumerationen finns inte. Kontakta oss om du behöver hjälp."
 
 #. translators: placeholder is subscription's new status, translated
 #: includes/class-wcs-user-change-status-handler.php:108
@@ -3167,6 +3221,8 @@ msgid ""
 "That subscription can not be changed to %s. Please contact us if you need "
 "assistance."
 msgstr ""
+"Den prenumerationen kan inte ändras till %s. Kontakta oss om du behöver "
+"hjälp."
 
 #: includes/class-wcs-webhooks.php:110
 msgid " Subscription Created"
@@ -3186,7 +3242,7 @@ msgstr " Prenumeration växlad"
 
 #: includes/data-stores/class-wcs-customer-store-cached-cpt.php:54
 msgid "Generate Customer Subscription Cache"
-msgstr ""
+msgstr "Generera cache för kundprenumeration."
 
 #: includes/data-stores/class-wcs-customer-store-cached-cpt.php:54
 msgid ""
@@ -3194,10 +3250,13 @@ msgid ""
 "subscriptions. The caches will be generated overtime in the background (via "
 "Action Scheduler)."
 msgstr ""
+"Detta kommer att generera en beständig cache för att länka användare med "
+"prenumerationer. Cachen kommer att genereras övertid i bakgrunden (via "
+"Action Scheduler)."
 
 #: includes/data-stores/class-wcs-customer-store-cached-cpt.php:55
 msgid "Delete Customer Subscription Cache"
-msgstr ""
+msgstr "Radera cache för kundprenumeration."
 
 #: includes/data-stores/class-wcs-customer-store-cached-cpt.php:55
 msgid ""
@@ -3428,7 +3487,7 @@ msgstr ""
 
 #: includes/emails/class-wcs-email-customer-payment-retry.php:24
 msgid "Customer Payment Retry"
-msgstr ""
+msgstr "Återförsök av kundbetalning"
 
 #: includes/emails/class-wcs-email-customer-payment-retry.php:25
 msgid ""
@@ -3929,16 +3988,16 @@ msgstr "Inga försök funna i papperskorgen"
 #. Translators: %s subscription number.
 #: includes/privacy/class-wcs-privacy-erasers.php:71
 msgid "Removed personal data from subscription %s."
-msgstr "Tog bort personliga data från prenumeration %s."
+msgstr "Tog bort personuppgifter från prenumeration %s."
 
 #. Translators: %s subscription number.
 #: includes/privacy/class-wcs-privacy-erasers.php:75
 msgid "Personal data within subscription %s has been retained."
-msgstr "Personlig data med prenumeration %s har behållits."
+msgstr "Personuppgifter med prenumeration %s har behållits."
 
 #: includes/privacy/class-wcs-privacy-erasers.php:189
 msgid "Personal data removed."
-msgstr "Personlig data borttagen."
+msgstr "Personuppgifter raderade."
 
 #: includes/privacy/class-wcs-privacy-exporters.php:77
 msgid "Subscription Number"
@@ -3996,6 +4055,9 @@ msgid ""
 "subscription payments, you may be sharing personal data with external "
 "sources."
 msgstr ""
+"Genom att använda WooCommerce Subscriptions kan du lagra personuppgifter. "
+"Beroende på vilka betalningsbehandlare från tredje part som används för "
+"prenumerationsbetalningar, kan personuppgifter delas med externa källor."
 
 #. translators: placeholders are opening and closing link tags, linking to
 #. additional privacy policy documentation.
@@ -4032,13 +4094,13 @@ msgstr ""
 
 #: includes/privacy/class-wcs-privacy.php:109
 msgid "Cancel and remove personal data"
-msgstr ""
+msgstr "Avbryt och radera personuppgifter"
 
 #: includes/privacy/class-wcs-privacy.php:175
 msgid "Removed personal data from %d subscription."
 msgid_plural "Removed personal data from %d subscriptions."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Raderade personuppgifter från %d prenumeration."
+msgstr[1] "Raderade personuppgifter från %d prenumerationer."
 
 #. translators: placeholders are opening and closing tags.
 #: includes/privacy/class-wcs-privacy.php:194
