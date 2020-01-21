@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-01-21 20:45+0100\n"
+"PO-Revision-Date: 2020-01-21 21:09+0100\n"
 "Language-Team: Fredrik Waldfelt<fredrik@waldfelt.com>\n"
 "X-Generator: Poedit 2.2.4\n"
 "Last-Translator: \n"
@@ -3242,7 +3242,7 @@ msgstr " Prenumeration växlad"
 
 #: includes/data-stores/class-wcs-customer-store-cached-cpt.php:54
 msgid "Generate Customer Subscription Cache"
-msgstr "Generera cache för kundprenumeration."
+msgstr "Generera cache för kundprenumeration"
 
 #: includes/data-stores/class-wcs-customer-store-cached-cpt.php:54
 msgid ""
@@ -3256,7 +3256,7 @@ msgstr ""
 
 #: includes/data-stores/class-wcs-customer-store-cached-cpt.php:55
 msgid "Delete Customer Subscription Cache"
-msgstr "Radera cache för kundprenumeration."
+msgstr "Radera cache för kundprenumeration"
 
 #: includes/data-stores/class-wcs-customer-store-cached-cpt.php:55
 msgid ""
@@ -4115,7 +4115,7 @@ msgstr ""
 
 #: includes/privacy/class-wcs-privacy.php:220
 msgid "Remove personal data from subscriptions"
-msgstr ""
+msgstr "Radera personuppgifter från prenumerationer"
 
 #. Translators: %s URL to erasure request screen.
 #: includes/privacy/class-wcs-privacy.php:222
@@ -4126,13 +4126,15 @@ msgstr ""
 
 #: includes/privacy/class-wcs-privacy.php:231
 msgid "Retain ended subscriptions"
-msgstr ""
+msgstr "Behåll avslutade prenumerationer"
 
 #: includes/privacy/class-wcs-privacy.php:232
 msgid ""
 "Retain ended subscriptions and their related orders for a specified duration "
 "before anonymizing the personal data within them."
 msgstr ""
+"Behåll avslutade prenumerationer och deras relaterade beställningar under en "
+"specificerad period innan anonymisering av tillhörande personuppgifter."
 
 #: includes/privacy/class-wcs-privacy.php:235
 msgid "N/A"
@@ -5123,11 +5125,11 @@ msgstr "Andra"
 
 #: templates/admin/deprecated/order-tax-html.php:17
 msgid "Recurring Sales Tax:"
-msgstr ""
+msgstr "Återkommande moms:"
 
 #: templates/admin/deprecated/order-tax-html.php:21
 msgid "Shipping Tax:"
-msgstr ""
+msgstr "Fraktmoms:"
 
 #: templates/admin/html-failed-scheduled-action-notice.php:15
 msgid ""
@@ -5144,8 +5146,8 @@ msgstr[1] ""
 #: templates/admin/html-failed-scheduled-action-notice.php:25
 msgid "Affected event:"
 msgid_plural "Affected events:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Berörd händelse:"
+msgstr[1] "Berörda händelser:"
 
 #. translators: $1 the log file name $2 and $3 are opening and closing link
 #. tags, respectively.
@@ -5161,7 +5163,7 @@ msgstr "Prenumerationens provperiod:"
 
 #: templates/admin/html-variation-price.php:49
 msgid "Billing interval:"
-msgstr ""
+msgstr "Betalningsintervall:"
 
 #: templates/admin/html-variation-price.php:56
 msgid "Billing Period:"
@@ -5211,7 +5213,7 @@ msgstr ""
 #: templates/emails/admin-new-switch-order.php:28
 #: templates/emails/customer-completed-switch-order.php:26
 msgid "New subscription details"
-msgstr ""
+msgstr "Detaljer för ny prenumeration"
 
 #: templates/emails/admin-payment-retry.php:24
 #: templates/emails/plain/admin-payment-retry.php:21
@@ -5230,7 +5232,7 @@ msgstr ""
 #: templates/emails/expired-subscription.php:41
 #: templates/emails/on-hold-subscription.php:41
 msgid "-"
-msgstr ""
+msgstr "-"
 
 #. translators: %s: Customer first name
 #: templates/emails/customer-completed-renewal-order.php:17
@@ -5244,7 +5246,7 @@ msgstr ""
 #: templates/emails/plain/customer-processing-renewal-order.php:16
 #: templates/emails/plain/customer-renewal-invoice.php:16
 msgid "Hi %s,"
-msgstr ""
+msgstr "Hej %s,"
 
 #: templates/emails/customer-completed-renewal-order.php:18
 #: templates/emails/plain/customer-completed-renewal-order.php:17
@@ -5271,7 +5273,7 @@ msgstr ""
 #: templates/emails/customer-renewal-invoice.php:24
 #: templates/emails/customer-renewal-invoice.php:33
 msgid "Pay Now &raquo;"
-msgstr ""
+msgstr "Betala nu &raquo;"
 
 #. translators: $1: customer's billing first name and last name
 #: templates/emails/expired-subscription.php:16
@@ -5293,30 +5295,30 @@ msgstr ""
 #: templates/emails/plain/cancelled-subscription.php:32
 #: templates/emails/plain/expired-subscription.php:32
 msgid "Last Order Date: %s"
-msgstr ""
+msgstr "Datum för senaste beställningen: %s"
 
 #. translators: placeholder is localised date string
 #: templates/emails/plain/cancelled-subscription.php:39
 msgid "End of Prepaid Term: %s"
-msgstr ""
+msgstr "Den förbetalda periodens slut: %s"
 
 #. translators: placeholder is order's view url
 #: templates/emails/plain/customer-completed-switch-order.php:24
 msgid "View your order: %s"
-msgstr ""
+msgstr "Se din beställning: %s"
 
 #. translators: placeholder is subscription's view url
 #: templates/emails/plain/customer-completed-switch-order.php:35
 msgid "View your subscription: %s"
-msgstr ""
+msgstr "Se din prenumeration: %s"
 
 #: templates/emails/plain/email-order-details.php:16
 msgid "Order number: %s"
-msgstr ""
+msgstr "Beställningsnummer: %s"
 
 #: templates/emails/plain/email-order-details.php:17
 msgid "Order date: %s"
-msgstr ""
+msgstr "Beställningsdatum: %s"
 
 #. translators: placeholder is localised date string
 #: templates/emails/plain/expired-subscription.php:39
@@ -5326,31 +5328,35 @@ msgstr "Slutdatum: %s"
 #. translators: placeholder is last time subscription was paid
 #: templates/emails/plain/on-hold-subscription.php:32
 msgid "Last Order: %s"
-msgstr ""
+msgstr "Senaste beställning: %s"
 
 #. translators: placeholder is localised date string
 #: templates/emails/plain/on-hold-subscription.php:36
 msgid "Date Suspended: %s"
-msgstr ""
+msgstr "Avstängingsdatum: %s"
 
 #: templates/emails/plain/subscription-info.php:16
 #: templates/emails/subscription-info.php:14
 msgid "Subscription information"
-msgstr ""
+msgstr "Prenumerationsinformation"
 
 #: templates/html-early-renewal-modal-content.php:23
 msgid "By renewing your subscription early your next payment will be %s."
 msgstr ""
+"Genom att förnya din prenumeration tidigt kommer din nästa betalning att "
+"vara %s."
 
 #: templates/html-early-renewal-modal-content.php:28
 msgid ""
 "By renewing your subscription early, your scheduled next payment on %s will "
 "be cancelled."
 msgstr ""
+"Genom att förnya din prenumeration tidigt kommer din schemalagda nästa "
+"betalning på %s att annulleras."
 
 #: templates/html-early-renewal-modal-content.php:34
 msgid "Want to renew early via the checkout? Click %shere.%s"
-msgstr ""
+msgstr "Vill du förnya tidigt via kassan? Klicka %shär. %s"
 
 #: templates/myaccount/my-subscriptions.php:33
 #: templates/myaccount/related-subscriptions.php:31
@@ -5367,7 +5373,7 @@ msgstr "Nästa"
 
 #: templates/myaccount/my-subscriptions.php:72
 msgid "You have reached the end of subscriptions. Go to the %sfirst page%s."
-msgstr ""
+msgstr "Du har nått slutet av prenumerationer. Gå till %sförstasidan%s."
 
 #. translators: placeholders are opening and closing link tags to take to the
 #. shop page
@@ -5392,8 +5398,8 @@ msgstr "Beställning"
 #: templates/myaccount/related-orders.php:56
 msgid "%1$s for %2$d item"
 msgid_plural "%1$s for %2$d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$s för %2$d artikel"
+msgstr[1] "%1$s för %2$d artiklar"
 
 #: templates/myaccount/related-subscriptions.php:15
 msgid "Related subscriptions"
@@ -5432,6 +5438,7 @@ msgstr "Prenumerationuppdateringar"
 #: templates/myaccount/subscription-totals-table.php:35
 msgid "Are you sure you want remove this item from your subscription?"
 msgstr ""
+"Är det säkert att du vill ta bort denna artikel från din prenumeration?"
 
 #: templates/myaccount/subscription-totals.php:23
 msgid "Subscription totals"
@@ -5440,15 +5447,16 @@ msgstr "Totalt prenumeration"
 #: templates/single-product/add-to-cart/subscription.php:32
 #: templates/single-product/add-to-cart/variable-subscription.php:30
 msgid "You have an active subscription to this product already."
-msgstr ""
+msgstr "Du har redan en aktiv prenumeration denna produkt."
 
 #: templates/single-product/add-to-cart/variable-subscription.php:23
 msgid "This product is currently out of stock and unavailable."
 msgstr ""
+"Den här produkten finns för närvarande inte i lager och är inte tillgänglig."
 
 #: templates/single-product/add-to-cart/variable-subscription.php:34
 msgid "You have added a variation of this product to the cart already."
-msgstr ""
+msgstr "Du har redan lagt till en variant av denna produkt i varukorgen."
 
 #: templates/single-product/add-to-cart/variable-subscription.php:45
 msgid "Clear"
@@ -5456,19 +5464,20 @@ msgstr "Töm"
 
 #: wcs-functions.php:254
 msgid "Can not get status name. Status is not a string."
-msgstr ""
+msgstr "Kan inte hämta statusnamn. Status är inte en sträng."
 
 #: wcs-functions.php:277
 msgid "Can not get address type display name. Address type is not a string."
 msgstr ""
+"Kan inte hämta visningsnamn för adresstypen. Adresstyp är inte en sträng."
 
 #: wcs-functions.php:340
 msgid "Date type is not a string."
-msgstr ""
+msgstr "Datumtyp är inte en sträng."
 
 #: wcs-functions.php:342
 msgid "Date type can not be an empty string."
-msgstr ""
+msgstr "Datumtyp kan inte vara en tom sträng."
 
 #: woocommerce-subscriptions.php:270
 msgid "This is where subscriptions are stored."
@@ -5512,17 +5521,17 @@ msgstr "Vill du lägga till ett betalningssätt nu?"
 #. translators: placeholder is a number, numbers ending in 4-9, 0
 #: woocommerce-subscriptions.php:650 woocommerce-subscriptions.php:667
 msgid "%sth"
-msgstr ""
+msgstr "%s:e"
 
 #. translators: placeholder is a number, numbers ending in 1
 #: woocommerce-subscriptions.php:655
 msgid "%sst"
-msgstr ""
+msgstr "%s:a"
 
 #. translators: placeholder is a number, numbers ending in 2
 #: woocommerce-subscriptions.php:659
 msgid "%snd"
-msgstr ""
+msgstr "%s:a"
 
 #. translators: placeholder is a number, numbers ending in 3
 #: woocommerce-subscriptions.php:663
@@ -5563,7 +5572,7 @@ msgstr ""
 
 #: woocommerce-subscriptions.php:826
 msgid "Installed Plugins"
-msgstr ""
+msgstr "Installerade tillägg"
 
 #. translators: 1$-2$: opening and closing <strong> tags. 3$-4$: opening and
 #. closing link tags for learn more. Leads to duplicate site article on docs.
@@ -5705,7 +5714,7 @@ msgstr "dagar innan förnyelsedag"
 #: includes/admin/class-wcs-admin-system-status.php:93
 msgctxt "label that indicates whether debugging is turned on for the plugin"
 msgid "WCS_DEBUG"
-msgstr ""
+msgstr "WCS_DEBUG"
 
 #: includes/admin/class-wc-subscriptions-admin.php:1675
 #: includes/admin/class-wcs-admin-system-status.php:107
@@ -5743,7 +5752,7 @@ msgstr "Aktivera"
 #: includes/admin/class-wcs-admin-post-types.php:259
 msgctxt "an action on a subscription"
 msgid "Put on-hold"
-msgstr ""
+msgstr "Pausa"
 
 #: includes/admin/class-wcs-admin-post-types.php:260
 #: includes/admin/class-wcs-admin-post-types.php:473
@@ -5757,7 +5766,7 @@ msgstr "Avbryt"
 #: includes/admin/class-wcs-admin-post-types.php:335
 msgctxt "Used in order note. Reason why status changed."
 msgid "Subscription status changed by bulk edit:"
-msgstr ""
+msgstr "Prenumerationsstatus ändrad med massändring:"
 
 #: includes/admin/class-wcs-admin-post-types.php:431
 msgctxt "number of orders linked to a subscription"
@@ -5774,23 +5783,23 @@ msgstr "Fakturering:"
 #: includes/admin/class-wcs-admin-post-types.php:565
 msgctxt "Subscription title on admin table. (e.g.: #211 for John Doe)"
 msgid "%1$s#%2$s%3$s for %4$s"
-msgstr ""
+msgstr "%1$s#%2$s%3$s för %4$s"
 
 #. translators: placeholder is previous post title
 #: includes/admin/class-wcs-admin-post-types.php:904
 msgctxt "used in post updated messages"
 msgid "Subscription restored to revision from %s"
-msgstr ""
+msgstr "Prenumerationsp återställd till revidering från %s"
 
 #: includes/admin/class-wcs-admin-post-types.php:909
 msgctxt "used in \"Subscription scheduled for <date>\""
 msgid "M j, Y @ G:i"
-msgstr ""
+msgstr "Y M D @ H:i"
 
 #: includes/admin/class-wcs-admin-system-status.php:119
 msgctxt "Live URL, Label on WooCommerce -> System Status page"
 msgid "Subscriptions Live URL"
-msgstr ""
+msgstr "Subscriptions Live URL"
 
 #: includes/admin/class-wcs-admin-system-status.php:135
 msgctxt "label for the system status page"
@@ -5805,7 +5814,7 @@ msgstr "Prenumationsstatusar"
 #: includes/admin/class-wcs-admin-system-status.php:241
 msgctxt "label for the system status page"
 msgid "WooCommerce Account Connected"
-msgstr ""
+msgstr "WooCommerce-konto anslutet"
 
 #: includes/admin/class-wcs-admin-system-status.php:264
 msgctxt "label for the system status page"
@@ -5928,7 +5937,6 @@ msgstr "Prenumeration #%s"
 #. translators: php date format
 #: includes/admin/meta-boxes/views/html-related-orders-row.php:30
 #: includes/admin/meta-boxes/views/html-retries-table.php:44
-#, fuzzy
 msgctxt "post date"
 msgid "Y/m/d g:i:s A"
 msgstr "Y/m/d g:i:s A"
@@ -5943,10 +5951,9 @@ msgid "Total"
 msgstr "Totalt"
 
 #: includes/class-wcs-retry-manager.php:120
-#, fuzzy
 msgctxt "table heading"
 msgid "Renewal Payment Retry"
-msgstr "Försök av förnyelsebetalning"
+msgstr "Återförsök av förnyelsebetalning"
 
 #: templates/emails/cancelled-subscription.php:23
 #: templates/emails/expired-subscription.php:23
@@ -5997,7 +6004,7 @@ msgstr "Prövning slutar"
 #: wcs-functions.php:304
 msgctxt "table heading"
 msgid "Cancelled Date"
-msgstr ""
+msgstr "Datum för avbrott"
 
 #: wcs-functions.php:305
 msgctxt "table heading"
@@ -6012,17 +6019,17 @@ msgstr ""
 #: includes/admin/reports/class-wcs-report-retention-rate.php:156
 msgctxt "X axis label on retention rate graph"
 msgid "Number of days after sign-up"
-msgstr ""
+msgstr "Antal dagar sedan registrering"
 
 #: includes/admin/reports/class-wcs-report-retention-rate.php:159
 msgctxt "X axis label on retention rate graph"
 msgid "Number of weeks after sign-up"
-msgstr ""
+msgstr "Antal veckor efter registrering"
 
 #: includes/admin/reports/class-wcs-report-retention-rate.php:162
 msgctxt "X axis label on retention rate graph"
 msgid "Number of months after sign-up"
-msgstr ""
+msgstr "Antal månader efter registrering"
 
 #. translators: placeholder is error message
 #: includes/api/legacy/class-wc-api-subscriptions.php:268
@@ -6038,7 +6045,7 @@ msgstr ""
 #: includes/class-wc-subscription.php:1201
 msgctxt "original denotes there is no date to display"
 msgid "-"
-msgstr ""
+msgstr "-"
 
 #. translators: placeholder is date type (e.g. "end", "next_payment"...)
 #: includes/class-wc-subscription.php:2352
@@ -6126,7 +6133,7 @@ msgstr "Misslyckad"
 #: includes/class-wc-subscriptions-manager.php:1058
 msgctxt "Subscription status"
 msgid "On-hold"
-msgstr ""
+msgstr "Pausad"
 
 #: includes/class-wc-subscriptions-switcher.php:2697 wcs-functions.php:236
 msgctxt "Subscription status"
@@ -6136,7 +6143,7 @@ msgstr "Växlad"
 #: wcs-functions.php:234
 msgctxt "Subscription status"
 msgid "On hold"
-msgstr ""
+msgstr "Pausad"
 
 #: wcs-functions.php:238
 msgctxt "Subscription status"
@@ -6148,7 +6155,7 @@ msgstr "Väntar på annullering"
 #: includes/class-wc-subscriptions-manager.php:1808
 msgctxt "used in a select box"
 msgid "%1$s-%2$s"
-msgstr ""
+msgstr "%1$s-%2$s"
 
 #: includes/class-wc-subscriptions-order.php:684
 msgctxt "An order type"
@@ -6256,12 +6263,12 @@ msgstr ""
 #: includes/class-wc-subscriptions-switcher.php:1851
 msgctxt "a switch type"
 msgid "Downgrade"
-msgstr ""
+msgstr "Nedgradera"
 
 #: includes/class-wc-subscriptions-switcher.php:1854
 msgctxt "a switch type"
 msgid "Upgrade"
-msgstr ""
+msgstr "Uppgradera"
 
 #: includes/class-wc-subscriptions-switcher.php:1857
 msgctxt "a switch type"
@@ -6284,7 +6291,7 @@ msgstr ""
 #: includes/class-wc-subscriptions-switcher.php:1989
 msgctxt "used in order notes"
 msgid "Customer added %s."
-msgstr ""
+msgstr "Kund har lagts till %s."
 
 #. translators: placeholder is a year (e.g. "2016")
 #: includes/class-wc-subscriptions-synchroniser.php:51
@@ -6309,7 +6316,7 @@ msgstr ""
 #: templates/admin/html-variation-synchronisation.php:36
 msgctxt "input field placeholder for day field for annual subscriptions"
 msgid "Day"
-msgstr ""
+msgstr "Dag"
 
 #: includes/class-wcs-cart-renewal.php:693
 msgctxt ""
@@ -6420,7 +6427,7 @@ msgstr ""
 #: includes/emails/class-wcs-email-on-hold-subscription.php:141
 msgctxt "an email notification"
 msgid "Enable/Disable"
-msgstr ""
+msgstr "Aktivera/Inaktivera"
 
 #: includes/emails/class-wcs-email-cancelled-subscription.php:149
 #: includes/emails/class-wcs-email-expired-subscription.php:147
@@ -6500,6 +6507,8 @@ msgid ""
 "Your %1$s subscription renewal order from %2$s is complete - download your "
 "files"
 msgstr ""
+"Förnyelse av din %1$s prenumeration från %2$s är slutförd - ladda ner dina "
+"filer"
 
 #. translators: placeholder is {blogname}, a variable that will be substituted
 #. when email is sent out
@@ -6634,7 +6643,7 @@ msgstr[1] ""
 #: includes/upgrades/class-wc-subscriptions-upgrader.php:404
 msgctxt "Repair message that gets sent to front end."
 msgid "(in %s seconds)"
-msgstr ""
+msgstr "(inom %s sekunder)"
 
 #. translators: $1: "Repaired x subs with incorrect dates...", $2: "X others
 #. were checked and no repair needed", $3: "(in X seconds)". Ordering for RTL
@@ -6673,7 +6682,7 @@ msgstr "Dokumentation"
 #: includes/upgrades/templates/wcs-about-2-0.php:121
 msgctxt "h3 on the About Subscriptions page for this new feature"
 msgid "Change Payment Method"
-msgstr ""
+msgstr "Ändra betalningsmetod"
 
 #: includes/upgrades/templates/wcs-about.php:126
 msgctxt "h3 on the About Subscriptions page for this new feature"
@@ -6683,17 +6692,17 @@ msgstr ""
 #: includes/upgrades/templates/wcs-about.php:55
 msgctxt "learn more link to subscription reports documentation"
 msgid "Learn More"
-msgstr ""
+msgstr "Läs mer"
 
 #: includes/upgrades/templates/wcs-about.php:79
 msgctxt "learn more link to failed payment retry documentation"
 msgid "Learn More"
-msgstr ""
+msgstr "Läs mer"
 
 #: includes/upgrades/templates/wcs-about.php:100
 msgctxt "learn more link to subscription emails documentation"
 msgid "Learn More"
-msgstr ""
+msgstr "Läs mer"
 
 #: includes/upgrades/templates/wcs-upgrade.php:45
 msgctxt "text on submit button"
@@ -6715,7 +6724,7 @@ msgstr "(Inkluderar %s)"
 #: includes/wcs-formatting-functions.php:39
 msgctxt "initial payment on a subscription"
 msgid "up front"
-msgstr ""
+msgstr "direkt"
 
 #. translators: placeholder is a localized date and time (e.g. "February 1,
 #. 2018 10:20 PM")
@@ -7089,12 +7098,12 @@ msgstr "Pris: %s"
 #: templates/emails/plain/subscription-info.php:25
 msgctxt "Used as end date for an indefinite subscription"
 msgid "When Cancelled"
-msgstr ""
+msgstr "Vid avbrott"
 
 #: templates/emails/subscription-info.php:29
 msgctxt "Used as end date for an indefinite subscription"
 msgid "When cancelled"
-msgstr ""
+msgstr "Vid avbrott"
 
 #: templates/emails/subscription-info.php:27
 msgctxt "subscription number in email table. (eg: #106)"
@@ -7167,7 +7176,7 @@ msgstr ""
 #: wcs-functions.php:163
 msgctxt "The post title for the new subscription"
 msgid "Subscription &ndash; %s"
-msgstr ""
+msgstr "Prenumeration &ndash; %s"
 
 #: woocommerce-subscriptions.php:257
 msgctxt "custom post type setting"
