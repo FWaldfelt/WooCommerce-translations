@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-01-20 23:29+0100\n"
+"PO-Revision-Date: 2020-01-21 21:19+0100\n"
 "Language-Team: Fredrik Waldfelt (fredrik@waldfelt.com)\n"
 "X-Generator: Poedit 2.2.4\n"
 "Last-Translator: \n"
@@ -282,7 +282,6 @@ msgstr ""
 #: payment-gateway/Handlers/Abstract_Hosted_Payment_Handler.php:217
 #: payment-gateway/class-sv-wc-payment-gateway.php:2761
 #: payment-gateway/integrations/class-sv-wc-payment-gateway-integration-subscriptions.php:489
-#, fuzzy
 msgid ""
 "An error occurred, please try again or try an alternate form of payment."
 msgstr ""
@@ -301,7 +300,7 @@ msgstr "Kunde inte hitta beställning %s"
 #: payment-gateway/class-sv-wc-payment-gateway.php:2354
 #: payment-gateway/payment-tokens/class-sv-wc-payment-gateway-payment-tokens-handler.php:165
 msgid "Status code %1$s: %2$s"
-msgstr ""
+msgstr "Statuskod %1$s: %2$s"
 
 #. translators: Placeholders: %s - status code
 #. translators: Placeholders: %s - payment request response status code
@@ -500,7 +499,7 @@ msgstr ""
 
 #: payment-gateway/admin/class-sv-wc-payment-gateway-admin-payment-token-editor.php:562
 msgid "Savings"
-msgstr ""
+msgstr "Besparingar"
 
 #: payment-gateway/admin/class-sv-wc-payment-gateway-admin-payment-token-editor.php:663
 msgid "Refresh"
@@ -522,7 +521,7 @@ msgstr "Ta bort"
 #: payment-gateway/admin/class-sv-wc-payment-gateway-admin-user-handler.php:224
 #: payment-gateway/class-sv-wc-payment-gateway-privacy.php:209
 msgid "%s Payment Tokens"
-msgstr ""
+msgstr "%s Betalningstokens"
 
 #: payment-gateway/admin/class-sv-wc-payment-gateway-admin-user-handler.php:302
 #: payment-gateway/integrations/class-sv-wc-payment-gateway-integration-subscriptions.php:779
@@ -783,7 +782,7 @@ msgstr "Anslutningsinställningar"
 
 #: payment-gateway/apple-pay/class-sv-wc-payment-gateway-apple-pay-admin.php:149
 msgid "Apple Merchant ID"
-msgstr ""
+msgstr "Apple Merchant ID"
 
 #: payment-gateway/apple-pay/class-sv-wc-payment-gateway-apple-pay-admin.php:153
 msgid "This is found in your %1$sApple developer account%2$s"
@@ -791,17 +790,17 @@ msgstr ""
 
 #: payment-gateway/apple-pay/class-sv-wc-payment-gateway-apple-pay-admin.php:160
 msgid "Certificate Path"
-msgstr ""
+msgstr "Certifikatväg"
 
 #. translators: Placeholders: %s - the server's web root path
 #: payment-gateway/apple-pay/class-sv-wc-payment-gateway-apple-pay-admin.php:165
 msgid "For reference, your current web root path is: %s"
-msgstr ""
+msgstr "Som referens är din aktuella webbrotsväg: %s"
 
 #: payment-gateway/apple-pay/class-sv-wc-payment-gateway-apple-pay-admin.php:178
 #: payment-gateway/apple-pay/class-sv-wc-payment-gateway-apple-pay-admin.php:188
 msgid "Processing Gateway"
-msgstr ""
+msgstr "Bearbetar Gateway"
 
 #: payment-gateway/apple-pay/class-sv-wc-payment-gateway-apple-pay-admin.php:196
 msgid "Test Mode"
@@ -876,11 +875,11 @@ msgstr "Fel %d: Kan inte skapa beställning. Försök igen."
 
 #: payment-gateway/apple-pay/class-sv-wc-payment-gateway-apple-pay.php:121
 msgid "Apple Pay payment authorized."
-msgstr ""
+msgstr "Apple Pay-betalning godkänd."
 
 #: payment-gateway/apple-pay/class-sv-wc-payment-gateway-apple-pay.php:155
 msgid "Apple Pay payment failed. %s"
-msgstr ""
+msgstr "Apple Pay-betalningen misslyckades.  %s"
 
 #: payment-gateway/apple-pay/class-sv-wc-payment-gateway-apple-pay.php:544
 msgid "Subtotal"
@@ -953,17 +952,17 @@ msgstr "Säkerhetskod saknas"
 #: payment-gateway/class-sv-wc-payment-gateway-direct.php:267
 #: payment-gateway/class-sv-wc-payment-gateway.php:489
 msgid "Routing Number is missing"
-msgstr ""
+msgstr "Routingnummer saknas"
 
 #: payment-gateway/class-sv-wc-payment-gateway-direct.php:274
 #: payment-gateway/class-sv-wc-payment-gateway.php:490
 msgid "Routing Number is invalid (only digits are allowed)"
-msgstr ""
+msgstr "Routingnumret är ogiltigt (endast siffror tillåts)"
 
 #: payment-gateway/class-sv-wc-payment-gateway-direct.php:280
 #: payment-gateway/class-sv-wc-payment-gateway.php:491
 msgid "Routing number is invalid (must be 9 digits)"
-msgstr ""
+msgstr "Routingnumret är ogiltigt (behöver vara 9 siffror)"
 
 #: payment-gateway/class-sv-wc-payment-gateway-direct.php:289
 #: payment-gateway/class-sv-wc-payment-gateway.php:486
@@ -1461,7 +1460,7 @@ msgstr "Visa på utchecknings-sida"
 #. translators: show debugging information on both checkout page and in the log
 #: payment-gateway/class-sv-wc-payment-gateway.php:1206
 msgid "Both"
-msgstr "Båda"
+msgstr "Både"
 
 #: payment-gateway/class-sv-wc-payment-gateway.php:1269
 msgid "Select the gateway environment to use for transactions."
@@ -1481,24 +1480,25 @@ msgstr ""
 
 #: payment-gateway/class-sv-wc-payment-gateway.php:1345
 msgid "Card Verification (CSC)"
-msgstr ""
+msgstr "Säkerhetskod (CVV)"
 
 #: payment-gateway/class-sv-wc-payment-gateway.php:1346
 msgid "Display the Card Security Code (CV2) field on checkout"
-msgstr ""
+msgstr "Visa fältet Säkerhetskod (CV2) i kassan"
 
 #: payment-gateway/class-sv-wc-payment-gateway.php:1354
 msgid "Saved Card Verification"
-msgstr ""
+msgstr "Sparad kortverifiering"
 
 #: payment-gateway/class-sv-wc-payment-gateway.php:1355
 msgid "Display the Card Security Code field when paying with a saved card"
 msgstr ""
+"Visa fältet för korts säkerhetskod (cv2) när du betalar med ett sparat kort"
 
 #. translators: Placeholders: %1$s - site title, %2$s - order number
 #: payment-gateway/class-sv-wc-payment-gateway.php:1686
 msgid "%1$s - Order %2$s"
-msgstr ""
+msgstr "%1$s - Beställning %2$s"
 
 #. translators: Placeholders: %1$s - site title, %2$s - order number.
 #. Definitions: Capture as in capture funds from a credit card.
@@ -1568,7 +1568,7 @@ msgstr ""
 #. etc...), %2$s - last four digits of the card
 #: payment-gateway/class-sv-wc-payment-gateway.php:2559
 msgid "%1$s ending in %2$s"
-msgstr ""
+msgstr "%1$s slutar om %2$s"
 
 #. translators: Placeholders: %1$s - payment gateway title, %2$s - message
 #. (probably reason for the transaction being held for review)
@@ -1580,7 +1580,7 @@ msgstr ""
 #. message; e.g. Order Note: [Payment method] Payment failed [error]
 #: payment-gateway/class-sv-wc-payment-gateway.php:2744
 msgid "%1$s Payment Failed (%2$s)"
-msgstr ""
+msgstr "%1$s Betalning misslyckades (%2$s)"
 
 #. translators: Placeholders: %1$s - payment gateway title, %2$s -
 #. message/error
@@ -1590,7 +1590,7 @@ msgstr ""
 
 #: payment-gateway/class-sv-wc-payment-gateway.php:3027
 msgid "Transaction Type"
-msgstr ""
+msgstr "Transaktionstyp"
 
 #: payment-gateway/class-sv-wc-payment-gateway.php:3029
 msgid ""
@@ -1619,7 +1619,7 @@ msgstr ""
 
 #: payment-gateway/class-sv-wc-payment-gateway.php:3064
 msgid "Capture Paid Orders"
-msgstr ""
+msgstr "Fånga betalade beställningar"
 
 #: payment-gateway/class-sv-wc-payment-gateway.php:3067
 msgid "Automatically capture orders when they are changed to %s."
@@ -1627,11 +1627,11 @@ msgstr ""
 
 #: payment-gateway/class-sv-wc-payment-gateway.php:3068
 msgid "a paid status"
-msgstr ""
+msgstr "en betald status"
 
 #: payment-gateway/class-sv-wc-payment-gateway.php:3258
 msgid "Accepted Card Logos"
-msgstr ""
+msgstr "Accepterade kortlogotyper"
 
 #: payment-gateway/class-sv-wc-payment-gateway.php:3260
 msgid ""
@@ -1706,7 +1706,7 @@ msgstr ""
 
 #: payment-gateway/integrations/class-sv-wc-payment-gateway-integration-subscriptions.php:627
 msgid "Via %s ending in %s"
-msgstr ""
+msgstr "Via %s som slutar i %s"
 
 #: payment-gateway/integrations/class-sv-wc-payment-gateway-integration-subscriptions.php:654
 msgid "Subscriptions"
@@ -1733,15 +1733,15 @@ msgstr "Okänt fel"
 
 #: utilities/class-sv-wp-background-job-handler.php:644
 msgid "Job data key \"%s\" not set"
-msgstr ""
+msgstr "Jobbdata nyckel \" %s\" inte inställd"
 
 #: utilities/class-sv-wp-background-job-handler.php:648
 msgid "Job data key \"%s\" is not an array"
-msgstr ""
+msgstr "Jobbdata nyckel \" %s\" är inte en matris"
 
 #: utilities/class-sv-wp-background-job-handler.php:884
 msgid "Every %d Minutes"
-msgstr ""
+msgstr "Var %d minut"
 
 #: utilities/class-sv-wp-background-job-handler.php:1048
 msgid "Background Processing Test"
@@ -1770,12 +1770,12 @@ msgstr ""
 #: admin/abstract-sv-wc-plugin-admin-setup-wizard.php:396
 msgctxt "enhanced select"
 msgid "No matches found"
-msgstr ""
+msgstr "Inga träffar hittades"
 
 #: admin/abstract-sv-wc-plugin-admin-setup-wizard.php:397
 msgctxt "enhanced select"
 msgid "Loading failed"
-msgstr ""
+msgstr "Misslyckades ladda"
 
 #: admin/abstract-sv-wc-plugin-admin-setup-wizard.php:398
 msgctxt "enhanced select"
@@ -1820,7 +1820,7 @@ msgstr "Söker&hellip;"
 #: class-sv-wc-helper.php:408
 msgctxt "coordinating conjunction for a list of items: a, b, and c"
 msgid "and"
-msgstr ""
+msgstr "och"
 
 #: class-sv-wc-plugin.php:612
 msgctxt "noun"
@@ -1836,14 +1836,14 @@ msgstr ""
 #: payment-gateway/class-sv-wc-payment-gateway.php:2551
 msgctxt "noun, software environment"
 msgid "Test"
-msgstr ""
+msgstr "Test"
 
 #: payment-gateway/class-sv-wc-payment-gateway-direct.php:740
 #: payment-gateway/class-sv-wc-payment-gateway.php:2552
 #: payment-gateway/class-sv-wc-payment-gateway.php:3033
 msgctxt "credit card transaction type"
 msgid "Authorization"
-msgstr ""
+msgstr "Auktorisering"
 
 #: payment-gateway/class-sv-wc-payment-gateway-direct.php:740
 #: payment-gateway/class-sv-wc-payment-gateway.php:2552
@@ -1861,56 +1861,56 @@ msgstr "Konto"
 #: payment-gateway/class-sv-wc-payment-gateway.php:3291
 msgctxt "credit card type"
 msgid "Visa"
-msgstr ""
+msgstr "Visa"
 
 #: payment-gateway/class-sv-wc-payment-gateway-helper.php:233
 #: payment-gateway/class-sv-wc-payment-gateway.php:3292
 msgctxt "credit card type"
 msgid "MasterCard"
-msgstr ""
+msgstr "MasterCard"
 
 #: payment-gateway/class-sv-wc-payment-gateway-helper.php:237
 #: payment-gateway/class-sv-wc-payment-gateway.php:3293
 msgctxt "credit card type"
 msgid "American Express"
-msgstr ""
+msgstr "American Express"
 
 #: payment-gateway/class-sv-wc-payment-gateway-helper.php:241
 msgctxt "credit card type"
 msgid "Diners Club"
-msgstr ""
+msgstr "Diners Club"
 
 #: payment-gateway/class-sv-wc-payment-gateway-helper.php:245
 #: payment-gateway/class-sv-wc-payment-gateway.php:3294
 msgctxt "credit card type"
 msgid "Discover"
-msgstr ""
+msgstr "Discover"
 
 #: payment-gateway/class-sv-wc-payment-gateway-helper.php:249
 #: payment-gateway/class-sv-wc-payment-gateway.php:3296
 msgctxt "credit card type"
 msgid "JCB"
-msgstr ""
+msgstr "JCB"
 
 #: payment-gateway/class-sv-wc-payment-gateway-helper.php:253
 msgctxt "credit card type"
 msgid "CarteBleue"
-msgstr ""
+msgstr "CarteBleue"
 
 #: payment-gateway/class-sv-wc-payment-gateway-helper.php:257
 msgctxt "credit card type"
 msgid "Maestro"
-msgstr ""
+msgstr "Maestro"
 
 #: payment-gateway/class-sv-wc-payment-gateway-helper.php:261
 msgctxt "credit card type"
 msgid "Laser"
-msgstr ""
+msgstr "Laser"
 
 #: payment-gateway/class-sv-wc-payment-gateway.php:3295
 msgctxt "credit card type"
 msgid "Diners"
-msgstr ""
+msgstr "Diners"
 
 #. translators: http:www.investopedia.com/terms/c/checkingaccount.asp
 #: payment-gateway/class-sv-wc-payment-gateway-payment-form.php:446
@@ -1922,12 +1922,12 @@ msgstr ""
 #: payment-gateway/class-sv-wc-payment-gateway-payment-form.php:448
 msgctxt "account type"
 msgid "Savings"
-msgstr ""
+msgstr "Besparingar"
 
 #: payment-gateway/class-sv-wc-payment-gateway.php:2332
 msgctxt "hash before order number"
 msgid "#"
-msgstr ""
+msgstr "#"
 
 #: payment-gateway/integrations/class-sv-wc-payment-gateway-integration-subscriptions.php:684
 msgctxt "hash before order number"
@@ -1945,4 +1945,4 @@ msgstr ""
 #: payment-gateway/class-sv-wc-payment-gateway.php:3900
 msgctxt "software environment"
 msgid "Production"
-msgstr ""
+msgstr "Produktion"
