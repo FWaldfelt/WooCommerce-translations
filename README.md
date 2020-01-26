@@ -14,5 +14,6 @@ Kopiera filerna till:
 WooCommerce Plugin Frameworks ska koppieras till
 ````
 /wp-content/languages/woocommerce-plugin-framework/
+````
 ## Support
 Vid felaktiga eller saknade översättningar kontakta mig via e-post fredrik@waldfelt.com
