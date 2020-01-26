@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-01-21 21:09+0100\n"
+"PO-Revision-Date: 2020-01-26 20:46+0100\n"
 "Language-Team: Fredrik Waldfelt<fredrik@waldfelt.com>\n"
 "X-Generator: Poedit 2.2.4\n"
 "Last-Translator: \n"
@@ -1884,7 +1884,7 @@ msgstr "Delsumma moms."
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:656
 msgid "Removed line item meta data."
-msgstr ""
+msgstr "Metadata för raden raderade."
 
 #: includes/api/class-wc-rest-subscriptions-controller.php:664
 msgid "Meta key."
@@ -2349,6 +2349,9 @@ msgid ""
 "recurring coupon you are using. Please contact us if you require assistance "
 "or wish to make alternate arrangements."
 msgstr ""
+"Tyvärr verkar det inte finnas någon tillgänglig betalningsmetod som stöder "
+"den återkommande kupong du använder. Vänligen kontakta oss om du behöver "
+"hjälp eller vill ordna alternativa arrangemang."
 
 #: includes/class-wc-subscriptions-coupon.php:947
 msgid "Active for x payments"
@@ -2364,6 +2367,9 @@ msgid ""
 "automatically removed from the subscription. \"Payments\" also includes the "
 "initial subscription payment."
 msgstr ""
+"Kupongen kommer begränsas till det givna antalet betalningar. Den kommer "
+"sedan att automatiskt tas bort från prenumerationen. ”Betalningar” "
+"inkluderar även den första prenumerationsbetalningen."
 
 #. translators: %d refers to the number of payments the coupon can be used for.
 #: includes/class-wc-subscriptions-coupon.php:1081
@@ -2393,22 +2399,29 @@ msgstr "Prenumeration existerar inte i schemalagd åtgärd: %d"
 #: includes/class-wc-subscriptions-manager.php:306
 msgid "Failed to activate subscription status for order #%1$s: %2$s"
 msgstr ""
+"Misslyckades att aktivera prenumerationsstatus för beställning #%1$s: %2$s"
 
 #. translators: $1: order number, $2: error message
 #: includes/class-wc-subscriptions-manager.php:334
 msgid ""
 "Failed to update subscription status after order #%1$s was put on-hold: %2$s"
 msgstr ""
+"Misslyckades att uppdatera prenumerationsstatusen efter beställning #%1$s "
+"pausades: %2$s"
 
 #. translators: $1: order number, $2: error message
 #: includes/class-wc-subscriptions-manager.php:362
 msgid "Failed to cancel subscription after order #%1$s was cancelled: %2$s"
 msgstr ""
+"Misslyckades att avbryta prenumeration efter att beställning #%1$s blev "
+"avbruten: %2$s"
 
 #. translators: $1: order number, $2: error message
 #: includes/class-wc-subscriptions-manager.php:390
 msgid "Failed to set subscription as expired for order #%1$s: %2$s"
 msgstr ""
+"Misslyckades att ändra prenumeration till utgången för beställning #%1$s: "
+"%2$s"
 
 #: includes/class-wc-subscriptions-manager.php:416
 msgid "Subscription sign up failed."
@@ -2418,6 +2431,8 @@ msgstr "Prenumerationsregistreringen misslyckades."
 #: includes/class-wc-subscriptions-manager.php:426
 msgid "Failed to process failed payment on subscription for order #%1$s: %2$s"
 msgstr ""
+"Misslyckades att behandla misslyckad betalning på prenumeration för "
+"beställning #%1$s: %2$s"
 
 #: includes/class-wc-subscriptions-manager.php:495
 msgid "Error: Unable to create subscription. Please try again."
@@ -2437,13 +2452,13 @@ msgstr "Väntande prenumeration skapad."
 #. like
 #: includes/class-wc-subscriptions-manager.php:1821
 msgid "%1$s%2$s, %3$s @ %4$s : %5$s"
-msgstr ""
+msgstr "%3$s-%2$s-%1$s,  @ %4$s : %5$s"
 
 #. translators: all fields are full html nodes: 1$: month input, 2$: day input,
 #. 3$: year input. Change the order if you'd like
 #: includes/class-wc-subscriptions-manager.php:1825
 msgid "%1$s%2$s, %3$s"
-msgstr ""
+msgstr "%3$s-%1$s-%2$s"
 
 #: includes/class-wc-subscriptions-manager.php:1830
 msgid "Change"
@@ -2452,15 +2467,15 @@ msgstr "Ändra"
 #. translators: placeholder is subscription ID
 #: includes/class-wc-subscriptions-manager.php:2163
 msgid "Failed sign-up for subscription %s."
-msgstr ""
+msgstr "Misslyckad registrering för prenumeration %s."
 
 #: includes/class-wc-subscriptions-manager.php:2254
 msgid "Invalid security token, please reload the page and try again."
-msgstr ""
+msgstr "Ogiltig säkerhetstoken, ladda om sidan och försök igen."
 
 #: includes/class-wc-subscriptions-manager.php:2258
 msgid "Only store managers can edit payment dates."
-msgstr ""
+msgstr "Bara butikschef kan ändra betaldatumen."
 
 #: includes/class-wc-subscriptions-manager.php:2262
 msgid "Please enter all date fields."
@@ -2599,14 +2614,14 @@ msgstr "%1$s för %2$s"
 #. for 6 years"), 2$: trial length (e.g.: "with 4 months free trial")
 #: includes/class-wc-subscriptions-product.php:384
 msgid "%1$s with %2$s free trial"
-msgstr ""
+msgstr "%1$s med %2$s testperiod"
 
 #. translators: 1$: subscription string (e.g. "$15 on March 15th every 3 years
 #. for 6 years with 2 months free trial"), 2$: signup fee price (e.g. "and a
 #. $30 sign-up fee")
 #: includes/class-wc-subscriptions-product.php:389
 msgid "%1$s and a %2$s sign-up fee"
-msgstr ""
+msgstr "%1$s och %2$s i registreringsavgift"
 
 #: includes/class-wc-subscriptions-product.php:957
 msgid ""
@@ -2709,6 +2724,10 @@ msgid ""
 "customer pay only the gap between the existing subscription's sign up fee "
 "and the new subscription's sign up fee (if any)."
 msgstr ""
+"När du växlar till en prenumeration med en registreringsavgift, kan du kräva "
+"att kunden endast betalar skillnaden mellan den existerande prenumerations "
+"registreringsavgift och den nya prenumerationer registreringsavgift (om "
+"någon)."
 
 #: includes/class-wc-subscriptions-switcher.php:423
 msgid "Prorate Subscription Length"
